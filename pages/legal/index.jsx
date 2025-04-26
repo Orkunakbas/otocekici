@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import { Tabs, Tab } from "@heroui/react";
-import Navbar from '@/components/frontend/Navbar';
+import Navbar from '@/components/menu/Navbar';
 import Footer from '@/components/frontend/Footer';
 
 export default function Legal() {

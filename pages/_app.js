@@ -7,15 +7,22 @@ import { Provider } from 'react-redux'
 import { store } from '@/store/store'
 import { Toaster } from 'react-hot-toast'
 import { useRouter } from 'next/router'
-import { SessionProvider } from "next-auth/react"
 import { useEffect } from 'react'
+import Navbar from '@/components/menu/Navbar'
+import Topbar from "@/components/menu/Topbar";
 
 // AppContent'i düzeltelim
 function AppContent({ Component, pageProps }) {
   const router = useRouter()
   
-  // Direkt component'i render et
-  return <Component {...pageProps} />
+  // Navbar ve component'i render et
+  return (
+    <>
+      <Topbar/>
+      <Navbar />
+      <Component {...pageProps} />
+    </>
+  )
 }
 
 App.getInitialProps = async ({ ctx }) => {
@@ -23,14 +30,8 @@ App.getInitialProps = async ({ ctx }) => {
   
   const messages = {
     frontend: {
-      navbar: (await import(`../languages/${locale}/frontend/navbar.json`)).default,
-      home: (await import(`../languages/${locale}/frontend/home.json`)).default,
-      footer: (await import(`../languages/${locale}/frontend/footer.json`)).default,
-      contact: (await import(`../languages/${locale}/frontend/contact.json`)).default,
-      legal: (await import(`../languages/${locale}/frontend/legal.json`)).default,
-      community: (await import(`../languages/${locale}/frontend/community.json`)).default,
-      pricing: (await import(`../languages/${locale}/frontend/pricing.json`)).default,
-      'try-for-free': (await import(`../languages/${locale}/frontend/try-for-free.json`)).default,
+      navbar: (await import(`../languages/${locale}/navbar.json`)).default,
+  
     },
   };
 
@@ -46,15 +47,13 @@ export default function App({ Component, pageProps }) {
   const router = useRouter()
 
   return (
-    <SessionProvider session={pageProps.session}>
-      <Provider store={store}>
-        <HeroUIProvider>
-          <NextIntlClientProvider messages={pageProps.messages} locale={router.locale || 'tr'}>
-            <AppContent Component={Component} pageProps={pageProps} />
-            <Toaster position="bottom-right" />
-          </NextIntlClientProvider>
-        </HeroUIProvider>
-      </Provider>
-    </SessionProvider>
+    <Provider store={store}>
+      <HeroUIProvider>
+        <NextIntlClientProvider messages={pageProps.messages} locale={router.locale || 'tr'}>
+          <AppContent Component={Component} pageProps={pageProps} />
+          <Toaster position="bottom-right" />
+        </NextIntlClientProvider>
+      </HeroUIProvider>
+    </Provider>
   )
 }

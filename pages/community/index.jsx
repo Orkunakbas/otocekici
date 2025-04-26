@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
-import Navbar from '@/components/frontend/Navbar'
+import Navbar from '@/components/menu/Navbar'
 import Footer from '@/components/frontend/Footer'
 import { Button } from "@heroui/react"
 import Link from 'next/link'
