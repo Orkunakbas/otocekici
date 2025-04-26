@@ -1,0 +1,42 @@
+{
+  "menu": {
+    "audit": "Audit",
+    "company": "Company",
+    "inventory": "Inventory",
+    "actions": "Actions",
+    "documents": "Documents",
+    "performance": "Performance",
+    "tables": "Tables",
+    "department": "Department",
+    "assets": "Assets",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Logout",
+    "selectCompany": "Select Company"
+  },
+  "language": {
+    "title": "Language Selection",
+    "tr": "Turkish",
+    "en": "English"
+  },
+  "dropdown": {
+    "inventory": {
+      "title": "Inventory Module",
+      "description": "Data processing and transfer cards",
+      "items": {
+        "dataProcessing": "Data Processing Cards",
+        "suppliers": "Supplier Cards",
+        "publicTransfers": "Public Transfers",
+        "otherTransfers": "Other Transfers"
+      }
+    },
+    "company": {
+      "title": "Company Module",
+      "description": "Organization and asset management",
+      "items": {
+        "organization": "Organizational Structure",
+        "assetList": "Asset List"
+      }
+    }
+  }
+}

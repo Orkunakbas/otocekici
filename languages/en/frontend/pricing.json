@@ -1,0 +1,28 @@
+{
+  "title": "Cut Compliance Costs with DpoX",
+  "subtitle": "Smarter Solutions, Lower Expenses",
+  "description": "DpoX simplifies and streamlines your compliance processes, reducing the time your DPO spends on routine tasks. By automating key functions, DpoX helps you cut costs while maintaining top-tier compliance standards",
+  "features": {
+    "Integration Support": "Integration Support",
+    "Document Drafting": "Document Drafting",
+    "Records of Processing": "Records of Processing",
+    "Real Time Monitoring": "Real Time Monitoring",
+    "Assessment Tools": "Assessment Tools",
+    "Technical Support": "Technical Support",
+    "Vendor Screening": "Vendor Screening"
+  },
+  "integrationNote": "As part of your integration processes, your company's organizational structure and records of activity / personal data processing inventory are being transferred to DpoX free of charge by our setup team.",
+  "plans": {
+    "monthly": {
+      "billingPeriod": "Annual, paid monthly",
+      "taxInfo": "Tax excluded",
+      "billingInfo": "Billed monthly"
+    },
+    "yearly": {
+      "billingPeriod": "Annual, prepaid",
+      "taxInfo": "Tax excluded",
+      "billingInfo": "Billed annually"
+    }
+  },
+  "tryForFree": "Try for Free"
+}

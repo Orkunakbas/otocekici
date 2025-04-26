@@ -1,0 +1,37 @@
+{
+  "stats": {
+    "title": "Statistics",
+    "cards": {
+      "aksiyonlar": "Actions",
+      "veriIsleme": "Data Processing",
+      "tedarikciler": "Suppliers",
+      "kamuAktarim": "Public Transfer",
+      "digerAktarim": "Other Transfer",
+      "varliklar": "Assets"
+    },
+    "charts": {
+      "aksiyonDurumTablosu": "Action Status Table",
+      "totalActions": "Total Number of Actions",
+      "riskCategories": {
+        "completed": "Completed",
+        "lowRisk": "Low Risk",
+        "mediumRisk": "Medium Risk",
+        "highRisk": "High Risk"
+      },
+      "loading": "Loading data...",
+      "error": "An error occurred while loading data.",
+      "noData": "No data to display."
+    }
+  },
+  "summary": {
+    "title": "Summary",
+    "description": "General status of company data"
+  },
+  "actions": {
+    "title": "Pending Actions",
+    "empty": "No pending actions",
+    "viewAll": "View All"
+  },
+  "loading": "Loading data...",
+  "error": "An error occurred"
+}

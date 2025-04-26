@@ -1,0 +1,37 @@
+{
+  "performansPage": {
+    "title": "Performans",
+    "tabs": {
+      "girisKayitlari": "Giriş Kayıtları",
+      "envanterGuncelleme": "Envanter Güncelleme"
+    },
+    "tabsLabel": "Performans Tabları"
+  },
+  "girisKayitlari": {
+    "tableTitle": "Giriş Kayıtları Tablosu",
+    "columns": {
+      "role": "Rol",
+      "email": "E-Posta Adresi",
+      "date": "Giriş Tarihi",
+      "time": "Giriş Saati"
+    },
+    "noData": "Görüntülenecek giriş kaydı bulunamadı",
+    "noDataInTable": "Görüntülenecek veri yok",
+    "paginationLabel": "Sayfa navigasyonu",
+    "error": "Veri yüklenirken bir hata oluştu",
+    "retry": "Yeniden Dene"
+  },
+  "envanterGuncelleme": {
+    "tableTitle": "Envanter Güncelleme Tablosu",
+    "columns": {
+      "department": "Departman",
+      "email": "E-Posta Adresi",
+      "notificationDate": "Envanter Onay Bildirim Tarihi"
+    },
+    "unknown": "Bilinmiyor",
+    "noData": "Görüntülenecek envanter güncelleme kaydı bulunamadı",
+    "paginationLabel": "Sayfa navigasyonu",
+    "error": "Veri yüklenirken bir hata oluştu",
+    "retry": "Yeniden Dene"
+  }
+}

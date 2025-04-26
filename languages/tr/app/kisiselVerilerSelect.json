@@ -1,0 +1,14 @@
+{
+  "ilgiliKisi": "İlgili Kişi",
+  "ilgiliKisiSecin": "İlgili Kişi Seçiniz",
+  "kisiEklenmedi": "Henüz ilgili kişi eklenmedi",
+  "yukaridanEkleyin": "Yukarıdan ilgili kişi ekleyebilirsiniz",
+  "kisiselVeriler": "Kişisel Veriler",
+  "kisiIcinVeriler": "{kisi} için Kişisel Veriler",
+  "veriAra": "Kişisel Veri Ara...",
+  "temizle": "Temizle",
+  "seciliVeriler": "Seçili Kişisel Veriler ({sayi})",
+  "veriSecilmedi": "Henüz kişisel veri seçilmedi", 
+  "ilgiliKisiSeciniz": "Lütfen sol taraftan bir ilgili kişi seçiniz",
+  "yukleniyor": "Yükleniyor..."
+}

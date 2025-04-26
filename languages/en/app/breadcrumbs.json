@@ -1,0 +1,162 @@
+{
+  "pages": {
+    "denetim": {
+      "title": {
+        "danışman": "Audit Dashboard",
+        "yönetici": "Audit Dashboard",
+        "temsilci": "Department Dashboard"
+      },
+      "description": {
+        "danışman": "The Audit Dashboard is designed for data protection professionals and company managers. Within the Audit Dashboard, you can find numerical information about incomplete actions, data processing and transfer activities, and assets belonging to company departments. You can track action statuses by department and configure automation rules for inventory updates and action reminders.",
+        "yönetici": "The Audit Dashboard is designed for data protection professionals and company managers. Within the Audit Dashboard, you can find numerical information about incomplete actions, data processing and transfer activities, and assets belonging to company departments. You can track action statuses by department and configure automation rules for inventory updates and action reminders.",
+        "temsilci": "The Department Dashboard is designed for department representatives. Within the Department Dashboard, you can find numerical information about incomplete actions assigned to your department, data processing activities conducted by your department, data transfers to public institutions and other data transfers, as well as suppliers belonging to your department. You can view and edit details by clicking on the visuals."
+      }
+    },
+    "sirket": {
+      "title": {
+        "danışman": "Company Module",
+        "yönetici": "Company Module"
+      },
+      "description": {
+        "danışman": "Using the buttons below, you can view and edit the organizational structure of the relevant company, including department lists and representatives, as well as physical or electronic assets belonging to the company. You can make changes to the organizational structure to grant access rights to users or remove existing permissions. Additionally, updates on asset cards will directly reflect on the storage areas list in the data processing cards.",
+        "yönetici": "Using the buttons below, you can view and edit the organizational structure of your company, including department lists and representatives, as well as physical or electronic assets belonging to the company. You can make changes to the organizational structure to grant access rights to users or remove existing permissions. Additionally, updates on asset cards will directly reflect on the storage areas list in the data processing cards."
+      }
+    },
+    "envanter": {
+      "title": {
+        "danışman": "Inventory Module",
+        "yönetici": "Inventory Module",
+        "temsilci": "Inventory Module" 
+      },
+      "description": {
+        "danışman": "Using the buttons below, you can access personal data processing, supplier, public transfers, or other transfer cards related to the relevant company. The cards and details in these sections constitute the personal data inventory of the company. As a data protection consultant, it is recommended that you regularly check the details and changes in the relevant sections, update your analyses in the cards, and, when necessary, assign tasks to the relevant units through the Action Module.",
+        "yönetici": "Using the buttons below, you can access personal data processing, supplier, public transfers, or other transfer cards related to your company. The cards and details in these sections constitute the personal data inventory of your unit.",
+        "temsilci": "Using the buttons below, you can access personal data processing, supplier, public transfers, or other transfer cards related to your unit. The cards and details in these sections constitute the personal data inventory of your unit. As a unit manager, you need to regularly check the details in the relevant sections and update any changes to the relevant cards."
+      }
+    },
+    "tablolar": {
+      "title": {
+        "danışman": "Tables",
+        "yönetici": "Tables"
+      },
+      "description": {
+        "danışman": "Below you can find summary tables regarding the Data Controllers Registry notification created by scanning personal data processing and transfer cards of the company by DpoX, as well as summary tables that can be used in concluding standard contracts with suppliers.",
+        "yönetici": "Below you can find summary tables regarding the Data Controllers Registry notification created by scanning personal data processing and transfer cards of the company by DpoX, as well as summary tables that can be used in concluding standard contracts with suppliers."
+      }
+    },
+    "performans": {
+      "title": {
+        "danışman": "Performance",
+        "yönetici": "Performance"
+      },
+      "description": {
+        "danışman": "Below you can find details of DpoX login records of company managers and department representatives, as well as details about inventory update notifications submitted by department representatives.",
+        "yönetici": "Below you can find details of DpoX login records of company managers and department representatives, as well as details about inventory update notifications submitted by department representatives."
+      }
+    },
+    "organizasyon": {
+      "title": {
+        "danışman": "Organizational Structure",
+        "yönetici": "Organizational Structure"
+      },
+      "description": {
+        "danışman": "In this section, you can find the department list and department representatives defined for the relevant company. You can define a new department using the Add Department button located in the left section of the screen. To assign representatives to defined departments, you can use the Add Representative button located in the right section of the screen.",
+        "yönetici": "In this section, you can find the department list and department representatives defined for your company. You can define a new department using the Add Department button located in the left section of the screen. To assign representatives to defined departments, you can use the Add Representative button located in the right section of the screen."
+      }
+    },
+    "varlik-listesi": {
+      "title": {
+        "danışman": "Asset Cards",
+        "yönetici": "Asset Cards"
+      },
+      "description": {
+        "danışman": "In the cards below, you can find physical or electronic assets belonging to the relevant company and basic information about those assets. You can add a new asset card using the Add New button, and you can make changes to the details of the relevant asset using the Details button.",
+        "yönetici": "In the cards below, you can find physical or electronic assets belonging to your company and basic information about those assets. You can add a new asset card using the Add New button, and you can make changes to the details of the relevant asset using the Details button."
+      }
+    },
+    "veri-isleme": {
+      "title": {
+        "danışman": "Data Processing Cards",
+        "yönetici": "Data Processing Cards",
+        "temsilci": "Data Processing Cards"
+      },
+      "description": {
+        "danışman": "In the cards below, you can find basic information about personal data processing activities carried out by the relevant company. You can access cards with the features you are looking for more quickly using the filtering tools. You can add a new data processing activity using the Add New button, and you can examine the details of the relevant data processing activity using the Details button, and transfer your analyses by clicking on the Impact Analysis tab.",
+        "yönetici": "In the cards below, you can find basic information about personal data processing activities carried out by your company. You can access cards with the features you are looking for more quickly using the filtering tools. You can examine the details of the relevant data processing activity and the analyses made by your data protection consultant using the Details button.",
+        "temsilci": "In the cards below, you can find basic information about personal data processing activities carried out by your unit. You can add a new data processing activity using the Add New button, and you can make changes to the details of the relevant data processing activity using the Details button."
+      }
+    },
+    "tedarikci": {
+      "title": {
+        "danışman": "Supplier Cards",
+        "yönetici": "Supplier Cards",
+        "temsilci": "Supplier Cards"
+      },
+      "description": {
+        "danışman": "In the cards below, you can find basic information about suppliers defined for the relevant company. You can access suppliers with the features you are looking for more quickly using the filtering tools. You can add a new supplier card using the Add New button, and you can examine the details about the relevant supplier using the Details button, and transfer your analyses by clicking on the Assessment tab.",
+        "yönetici": "In the cards below, you can find basic information about suppliers defined for your company. You can access cards with the features you are looking for more quickly using the filtering tools. You can examine the details about the relevant supplier and personal data transferred to the supplier, as well as analyses made by your data protection consultant using the Details button.",
+        "temsilci": "In the cards below, you can find basic information about suppliers defined for your unit. You can add a new supplier card using the Add New button, and you can make changes to the details about the relevant supplier and personal data transferred to the supplier using the Details button."
+      }
+    },
+    "kamu-aktarim": {
+      "title": {
+        "danışman": "Public Institution Transfers",
+        "yönetici": "Public Institution Transfers",
+        "temsilci": "Public Institution Transfers"
+      },
+      "description": {
+        "danışman": "In the cards below, you can find basic information about personal data transferred to public institutions by the company. You can access cards with the features you are looking for more quickly using the filtering tools. You can add a new public transfer activity using the Add New button, and you can examine the details of the relevant data transfer activity using the Details button, and transfer your analyses by clicking on the Assessment tab.",
+        "yönetici": "In the cards below, you can find basic information about personal data transferred to public institutions by your company. You can access cards with the features you are looking for more quickly using the filtering tools. You can examine the details about the transferred personal data and the analyses made by your data protection consultant using the Details button.",
+        "temsilci": "In the cards below, you can find basic information about personal data transferred to public institutions by your unit. You can add a new public transfer activity using the Add New button, and you can make changes to the details about the transferred personal data using the Details button."
+      }
+    },
+    "diger-aktarim": {
+      "title": {
+        "danışman": "Other Transfers",
+        "yönetici": "Other Transfers",
+        "temsilci": "Other Transfers"
+      },
+      "description": {
+        "danışman": "In the cards below, you can find basic information about personal data transferred by the company to organizations other than suppliers or public institutions. You can access cards with the features you are looking for more quickly using the filtering tools. You can add a new transfer activity using the Add New button, and you can examine the details of the relevant data transfer activity using the Details button, and transfer your analyses by clicking on the Assessment tab.",
+        "yönetici": "In the cards below, you can find basic information about personal data transferred by your company to organizations other than suppliers or public institutions. You can access cards with the features you are looking for more quickly using the filtering tools. You can examine the details about the transferred personal data and the analyses made by your data protection consultant using the Details button.",
+        "temsilci": "In the cards below, you can find basic information about personal data transferred by your unit to organizations other than suppliers or public institutions. You can add a new transfer activity using the Add New button, and you can make changes to the details about the transferred personal data using the Details button."
+      }
+    },
+    "aksiyonlar": {
+      "title": {
+        "danışman": "Action Module",
+        "yönetici": "Action Module",
+        "temsilci": "Action Module"
+      },
+      "description": {
+        "danışman": "Below you can find tasks assigned to company departments, their deadlines, linked documents, risk levels, and completion statuses. You can assign a new task to company departments using the Add Action button, and you can edit or delete the relevant action using the buttons in the Action column of each action. You can access the list of archived actions using the Archive button in the top right.",
+        "yönetici": "Below you can find tasks assigned to departments defined in your company, their deadlines, linked documents, and risk levels. You can access detailed explanations about the relevant assignment by clicking on the \"Click for explanation...\" expression under each action name, and you can download the relevant document to your computer by clicking on the icon in the Document column.",
+        "temsilci": "Below you can find tasks assigned to your department, their deadlines, linked documents, and risk levels. You can access detailed explanations about the relevant assignment by clicking on the \"Click for explanation...\" expression under each action name, and you can download the relevant document to your computer by clicking on the icon in the Document column. After the relevant action is completed by your department, you can inform your consultant and management by marking the action status as \"Completed\" using the button in the Status column."
+      }
+    },
+    "dokumanlar": {
+      "title": {
+        "danışman": "Document List",
+        "yönetici": "Document List",
+        "temsilci": "Document List"
+      },
+      "description": {
+        "danışman": "Below you can find all documents prepared to date to ensure the company's compliance with personal data protection regulations. You can download the relevant document to your computer by clicking on the document icon in the relevant row. You can view archived documents using the Archive button, and you can add a new document using the Add Document button.",
+        "yönetici": "Below you can find all documents prepared to date to ensure the company's compliance with personal data protection regulations. You can download the relevant document to your computer by clicking on the document icon in the relevant row, and you can view archived documents using the Archive button.",
+        "temsilci": "Below you can find all documents prepared to date to ensure the company's compliance with personal data protection regulations. You can download the relevant document to your computer by clicking on the document icon in the relevant row, and you can view archived documents using the Archive button."
+      }
+    },
+    "dokuman-arsiv": {
+      "title": {
+        "danışman": "Document Archive List",
+        "yönetici": "Document Archive List",
+        "temsilci": "Document Archive List"
+      },
+      "description": {
+        "danışman": "Below you can find all documents prepared to date to ensure the company's compliance with personal data protection regulations. You can download the relevant document to your computer by clicking on the document icon in the relevant row. You can view archived documents using the Archive button, and you can add a new document using the Add Document button.",
+        "yönetici": "Below you can find all documents prepared to date to ensure the company's compliance with personal data protection regulations. You can download the relevant document to your computer by clicking on the document icon in the relevant row, and you can view archived documents using the Archive button.",
+        "temsilci": "Below you can find all documents prepared to date to ensure the company's compliance with personal data protection regulations. You can download the relevant document to your computer by clicking on the document icon in the relevant row, and you can view archived documents using the Archive button."
+      }
+    }
+  }
+}

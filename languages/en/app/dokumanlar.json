@@ -1,0 +1,108 @@
+{
+  "title": "Document List",
+  "buttons": {
+    "archive": "Archive",
+    "addDocument": "Add Document",
+    "currentDocuments": "Current Documents"
+  },
+  "table": {
+    "show": "Show",
+    "search": "Search...",
+    "columns": {
+      "documentName": "Document Name",
+      "documentType": "Document Type",
+      "lastUpdate": "Last Update",
+      "document": "Document",
+      "actions": "Actions"
+    },
+    "noData": "No documents found."
+  },
+  "actions": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "archive": "Archive",
+    "unarchive": "Unarchive",
+    "download": "Download file"
+  },
+  "fileTypes": {
+    "pdf": "PDF File",
+    "word": "Word File",
+    "other": "Other File"
+  },
+  "toast": {
+    "deleting": "Deleting \"{name}\"...",
+    "deleteSuccess": "\"{name}\" successfully deleted",
+    "deleteError": "Failed to delete \"{name}\": {error}",
+    "addLoading": "Uploading document...",
+    "addSuccess": "Document successfully added",
+    "addError": "Error: {error}",
+    "archiving": "Archiving \"{name}\"...",
+    "archiveSuccess": "\"{name}\" successfully archived",
+    "archiveError": "Failed to archive \"{name}\": {error}",
+    "unarchiving": "Unarchiving \"{name}\"...",
+    "unarchiveSuccess": "\"{name}\" successfully unarchived",
+    "unarchiveError": "Failed to unarchive \"{name}\": {error}",
+    "updating": "Updating \"{name}\"...",
+    "updateSuccess": "\"{name}\" successfully updated",
+    "updateError": "Failed to update \"{name}\": {error}",
+    "fetchingError": "Failed to fetch document information: {error}"
+  },
+  "modal": {
+    "deleteTitle": "Delete Document",
+    "deleteMessage": "Are you sure you want to delete \"{name}\"?",
+    "archiveTitle": "Are you sure?",
+    "archiveMessage": "Are you sure you want to archive this document?",
+    "unarchiveTitle": "Unarchive Document",
+    "unarchiveMessage": "Are you sure you want to unarchive \"{name}\"?",
+    "confirmDelete": "Yes, Delete",
+    "confirmArchive": "Yes, Archive",
+    "confirmUnarchive": "Yes, Unarchive",
+    "cancel": "Cancel"
+  },
+  "archive": {
+    "title": "Archived Documents",
+    "noData": "No archived documents found"
+  },
+  "addModal": {
+    "title": "Add Document",
+    "documentName": "Document Name",
+    "documentNamePlaceholder": "Enter document name",
+    "documentType": "Document Type",
+    "documentTypePlaceholder": "Select",
+    "lastUpdateDate": "Last Update Date",
+    "lastUpdatePlaceholder": "Select date",
+    "lastUpdateDescription": "If no date is selected, today's date will be used",
+    "addDocumentLabel": "Add Document",
+    "selectFile": "Select File",
+    "supportedFileTypes": "Supported file types: PDF, DOC, DOCX",
+    "cancel": "Cancel",
+    "save": "Save",
+    "validation": {
+      "requiredFields": "Please provide document name and type.",
+      "requiredFile": "Please select a file."
+    }
+  },
+  "updateModal": {
+    "title": "Update Document",
+    "documentName": "Document Name",
+    "documentNamePlaceholder": "Enter document name",
+    "documentType": "Document Type",
+    "documentTypePlaceholder": "Select",
+    "lastUpdateDate": "Last Update Date",
+    "lastUpdatePlaceholder": "Select date",
+    "lastUpdateDescription": "If no date is selected, today's date will be used",
+    "updateDocumentLabel": "Update Document",
+    "currentFile": "Current File",
+    "selectNewFile": "Select New File",
+    "noFileSelected": "No file selected",
+    "keepCurrentFile": "Keep current file",
+    "supportedFileTypes": "Supported file types: PDF, DOC, DOCX",
+    "loading": "Loading document information...",
+    "error": "Cannot access document information",
+    "cancel": "Cancel",
+    "save": "Update",
+    "validation": {
+      "requiredFields": "Please provide document name and type."
+    }
+  }
+} 

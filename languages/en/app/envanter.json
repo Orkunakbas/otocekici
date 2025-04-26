@@ -1,0 +1,24 @@
+{
+  "cards": {
+    "personalData": {
+      "title": "Personal Data Processing Cards",
+      "number": "01",
+      "description": "In this section, you can view and edit cards that show personal data collection and storage activities carried out by your unit."
+    },
+    "suppliers": {
+      "title": "Supplier Cards",
+      "number": "02",
+      "description": "In this section, you can view and edit cards that show suppliers from which your unit receives services and the personal data accessed by these suppliers."
+    },
+    "publicTransfers": {
+      "title": "Public Transfers",
+      "number": "03",
+      "description": "In this section, you can view and edit cards that show personal data transferred by your unit to public institutions."
+    },
+    "otherTransfers": {
+      "title": "Other Transfers",
+      "number": "04",
+      "description": "In this section, you can view and edit cards that show personal data transferred to individuals and organizations other than suppliers and public institutions."
+    }
+  }
+}

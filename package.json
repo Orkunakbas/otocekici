@@ -1,0 +1,43 @@
+{
+  "name": "hollisbau",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start -H 141.98.112.55 -p 3004",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroui/react": "^2.6.14",
+    "@reduxjs/toolkit": "^2.5.0",
+    "axios": "^1.7.9",
+    "framer-motion": "^11.15.0",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^3.8.4",
+    "next": "15.1.2",
+    "next-auth": "^4.24.11",
+    "next-intl": "^4.0.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^5.4.0",
+    "react-redux": "^9.2.0",
+    "react-select": "^5.10.1",
+    "react-toastify": "^11.0.2",
+    "react-window": "^1.8.11",
+    "recharts": "^2.15.1",
+    "redux": "^5.0.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@iconify/react": "^5.1.0",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.2",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}

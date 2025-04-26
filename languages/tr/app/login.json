@@ -1,0 +1,37 @@
+{
+  "title": "DpoX'e Hoş Geldiniz",
+  "description": "Kurumsal DpoX panelinize erişerek organizasyonunuzun veri koruma ve uyum gereksinimlerini yönetin.",
+  "form": {
+    "email": "İş E-postası",
+    "emailPlaceholder": "İş e-postanızı girin",
+    "region": "Bölge",
+    "regionPlaceholder": "Bölgenizi seçin",
+    "Europe": "Avrupa",
+    "United Kingdom": "Birleşik Krallık",
+    "Türkiye": "Türkiye",
+    "Other": "Diğer",
+    "continue": "Devam Et",
+    "loading": "Doğrulanıyor..."
+  },
+  "otpModal": {
+    "title": "Tek Kullanımlık Şifre Al",
+    "description": "Hesabınıza erişmek için lütfen \"Şifre Al\" butonuna tıklayarak tek kullanımlık şifre (OTP) alın. Bu şifre iş e-postanıza gönderilecektir.",
+    "passwordLabel": "Şifre",
+    "getPassword": "Şifre Al",
+    "login": "Giriş Yap"
+  },
+  "security": {
+    "title": "Kurumsal Düzeyde Güvenlik",
+    "features": [
+      "Uçtan uca şifreleme",
+      "ISO 27001 sertifikalı",
+      "KVKK ve GDPR uyumlu",
+      "Düzenli güvenlik denetimleri"
+    ]
+  },
+  "privacyNotice": "Kişisel verileriniz, erişim yönetimi ve bilgi güvenliği amacıyla DpoX Limited tarafından işlenmektedir. Kişisel veri işleme faaliyetlerimiz hakkında detaylı bilgi için <link>Gizlilik Politikamızı</link> inceleyebilirsiniz.",
+  "needHelp": "Yardıma mı ihtiyacınız var? <link>Destek Ekibine Ulaşın</link>",
+  "language": {
+    "title": "Dil Seçimi"
+  }
+}

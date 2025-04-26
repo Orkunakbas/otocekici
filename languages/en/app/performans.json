@@ -1,0 +1,37 @@
+{
+  "performansPage": {
+    "title": "Performance",
+    "tabs": {
+      "girisKayitlari": "Login Records",
+      "envanterGuncelleme": "Inventory Update"
+    },
+    "tabsLabel": "Performance Tabs"
+  },
+  "girisKayitlari": {
+    "tableTitle": "Login Records Table",
+    "columns": {
+      "role": "Role",
+      "email": "Email Address",
+      "date": "Login Date",
+      "time": "Login Time"
+    },
+    "noData": "No login records found to display",
+    "noDataInTable": "No data to display",
+    "paginationLabel": "Page navigation",
+    "error": "An error occurred while loading data",
+    "retry": "Try Again"
+  },
+  "envanterGuncelleme": {
+    "tableTitle": "Inventory Update Table",
+    "columns": {
+      "department": "Department",
+      "email": "Email Address",
+      "notificationDate": "Inventory Approval Notification Date"
+    },
+    "unknown": "Unknown",
+    "noData": "No inventory update records found to display",
+    "paginationLabel": "Page navigation",
+    "error": "An error occurred while loading data",
+    "retry": "Try Again"
+  }
+}

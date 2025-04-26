@@ -1,0 +1,70 @@
+[
+  {
+    "value": "Çalışan Adayı",
+    "label": "Job Candidate"
+  },
+  {
+    "value": "Çalışan",
+    "label": "Employee"
+  },
+  {
+    "value": "Stajyer",
+    "label": "Intern"
+  },
+  {
+    "value": "Taşeron Çalışanı",
+    "label": "Contractor Employee"
+  },
+  {
+    "value": "Tedarikçi Çalışanı",
+    "label": "Supplier Employee"
+  },
+  {
+    "value": "Tedarikçi Yetkilisi",
+    "label": "Supplier Representative"
+  },
+  {
+    "value": "Müşteri",
+    "label": "Customer"
+  },
+  {
+    "value": "Potansiyel Müşteri",
+    "label": "Potential Customer"
+  },
+  {
+    "value": "Müşteri Şirket Yetkilisi",
+    "label": "Customer Company Representative"
+  },
+  {
+    "value": "Ziyaretçi",
+    "label": "Visitor"
+  },
+  {
+    "value": "Kefil/Garantör",
+    "label": "Guarantor"
+  },
+  {
+    "value": "Referanslar",
+    "label": "References"
+  },
+  {
+    "value": "Acil Durumda Aranacak Kişi",
+    "label": "Emergency Contact"
+  },
+  {
+    "value": "Çağrı Yapan Kişi",
+    "label": "Caller"
+  },
+  {
+    "value": "Hissedar / Ortak",
+    "label": "Shareholder / Partner"
+  },
+  {
+    "value": "Yönetim Kurulu Üyesi",
+    "label": "Board Member"
+  },
+  {
+    "value": "Diğer",
+    "label": "Other"
+  }
+]

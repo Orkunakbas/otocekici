@@ -1,0 +1,91 @@
+{
+  "title": "Aksiyon Listesi",
+  "buttons": {
+    "archive": "Arşiv",
+    "addAction": "Aksiyon Ekle",
+    "currentActions": "Güncel Aksiyonlar"
+  },
+  "table": {
+    "show": "Göster",
+    "search": "Ara...",
+    "columns": {
+      "department": "Departman",
+      "actionName": "Aksiyon İsmi",
+      "date": "Tarih",
+      "document": "Doküman",
+      "risk": "Risk",
+      "status": "Durum",
+      "actions": "İşlemler"
+    },
+    "noData": "Aksiyon bulunamadı.",
+    "clickForDescription": "Açıklama için tıklayınız...",
+    "noDocument": "Eklenmemiş",
+    "pdfFile": "PDF Dosyası",
+    "wordFile": "Word Dosyası",
+    "noDescription": "Açıklama bulunmamaktadır."
+  },
+  "actions": {
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "archive": "Arşivle",
+    "download": "İndir"
+  },
+  "risks": {
+    "high": "Yüksek Risk",
+    "medium": "Orta Risk",
+    "low": "Düşük Risk"
+  },
+  "modal": {
+    "deleteTitle": "Aksiyon Sil",
+    "deleteMessage": "\"{name}\" aksiyonunu silmek istediğinize emin misiniz?",
+    "archiveTitle": "Aksiyon Arşivle",
+    "archiveMessage": "Bu aksiyonu arşivlemek istediğinize emin misiniz?",
+    "confirmDelete": "Evet, Sil",
+    "confirmArchive": "Evet, Arşivle",
+    "cancel": "İptal",
+    "close": "Kapat"
+  },
+  "addModal": {
+    "title": "Aksiyon Ekle",
+    "actionName": "Aksiyon İsmi",
+    "actionNamePlaceholder": "Aksiyon ismini giriniz",
+    "actionDescription": "Aksiyon Açıklaması",
+    "actionDescriptionPlaceholder": "Aksiyon açıklamasını giriniz",
+    "risk": "Risk Seviyesi",
+    "riskPlaceholder": "Risk seviyesi seçiniz",
+    "department": "Departman",
+    "departmentPlaceholder": "Departman seçiniz",
+    "addDocumentLabel": "Doküman Ekle",
+    "selectFile": "Dosya Seç",
+    "supportedFileTypes": "Desteklenen dosya türleri: PDF, DOC, DOCX",
+    "save": "Kaydet",
+    "cancel": "İptal"
+  },
+  "updateModal": {
+    "title": "Aksiyon Güncelle",
+    "actionName": "Aksiyon İsmi",
+    "actionNamePlaceholder": "Aksiyon ismini giriniz",
+    "actionDescription": "Aksiyon Açıklaması",
+    "actionDescriptionPlaceholder": "Aksiyon açıklamasını giriniz",
+    "risk": "Risk Seviyesi",
+    "riskPlaceholder": "Risk seviyesi seçiniz",
+    "department": "Departman",
+    "departmentPlaceholder": "Departman seçiniz",
+    "addDocumentLabel": "Doküman Ekle",
+    "selectFile": "Dosya Seç",
+    "supportedFileTypes": "Desteklenen dosya türleri: PDF, DOC, DOCX",
+    "save": "Güncelle",
+    "cancel": "İptal"
+  },
+  "toast": {
+    "addLoading": "Aksiyon ekleniyor...",
+    "addSuccess": "Aksiyon başarıyla eklendi",
+    "addError": "Aksiyon eklenirken bir hata oluştu: {error}",
+    "updateLoading": "Aksiyon güncelleniyor...",
+    "updateSuccess": "Aksiyon başarıyla güncellendi",
+    "updateError": "Aksiyon güncellenirken bir hata oluştu: {error}"
+  },
+  "validation": {
+    "requiredFields": "Lütfen gerekli alanları doldurunuz"
+  }
+}

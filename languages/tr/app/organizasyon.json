@@ -1,0 +1,51 @@
+{
+  "title": "Organizasyon",
+  "departments": {
+    "title": "Departmanlar",
+    "add": "Departman Ekle",
+    "name": "Departman Adı",
+    "namePlaceholder": "Departman adını giriniz",
+    "delete": {
+      "title": "Departman Sil",
+      "confirm": "Bu departmanı silmek istediğinizden emin misiniz?",
+      "success": "Departman başarıyla silindi",
+      "error": "Departman silinirken bir hata oluştu"
+    },
+    "addSuccess": "Departman başarıyla eklendi",
+    "addError": "Departman eklenirken bir hata oluştu"
+  },
+  "representatives": {
+    "title": "Temsilci Tablosu",
+    "addRepresentative": "Temsilci Ekle",
+    "name": "Temsilci",
+    "email": "E-Posta Adresi",
+    "department": "Departman",
+    "actions": "İşlem",
+    "delete": {
+      "title": "Temsilci Sil",
+      "confirm": "Bu temsilciyi silmek istediğinizden emin misiniz?",
+      "success": "Temsilci başarıyla silindi",
+      "error": "Temsilci silinirken bir hata oluştu"
+    },
+    "add": {
+      "title": "Temsilci Ekle",
+      "success": "Temsilci başarıyla eklendi",
+      "error": "Temsilci eklenirken bir hata oluştu"
+    },
+    "varlik_sorumlusu": "Varlık Sorumlusu"
+  },
+  "delete": {
+    "cancel": "İptal",
+    "confirm": "Sil"
+  },
+  "form": {
+    "required": "Lütfen tüm zorunlu alanları doldurunuz",
+    "select": "Seçiniz",
+    "save": "Kaydet",
+    "cancel": "İptal"
+  },
+  "yes": "Evet",
+  "no": "Hayır"
+}
+
+

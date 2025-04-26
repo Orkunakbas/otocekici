@@ -1,0 +1,162 @@
+{
+  "pages": {
+    "denetim": {
+      "title": {
+        "danışman": "Denetim Ekranı",
+        "yönetici": "Denetim Ekranı",
+        "temsilci": "Bilgi Ekranı "
+      },
+      "description": {
+        "danışman": "Denetim Panosu veri koruma profesyonelleri ve şirket yöneticileri için tasarlanmıştır. Denetim Panosu içerisinde tamamlanmamış aksiyon, veri işleme ve aktarım faaliyetleri ve şirket birimlerine ait varlıklara dair sayısal bilgiler bulabilirsiniz. Aksiyon durumlarını birim bazında takip edebilir, envanter güncellemeleri ve aksiyon hatırlatmaları için otomasyon kuralları konfigüre edebilirsiniz.",
+        "yönetici": "Denetim Panosu veri koruma profesyonelleri ve şirket yöneticileri için tasarlanmıştır. Denetim Panosu içerisinde tamamlanmamış aksiyon, veri işleme ve aktarım faaliyetleri ve şirket birimlerine ait varlıklara dair sayısal bilgiler bulabilirsiniz. Aksiyon durumlarını birim bazında takip edebilir, envanter güncellemeleri ve aksiyon hatırlatmaları için otomasyon kuralları konfigüre edebilirsiniz.",
+        "temsilci": "Birim Panosu birim temsilcileri için tasarlanmıştır. Birim Panosu içerisinde biriminize atanmış tamamlanmamış aksiyonlar, biriminiz tarafından gerçekleştirilen veri işleme faaliyetleri, kamu kuruluşlarına veri aktarımları ve diğer aktarımlar ile biriminize ait tedarikçilere ilişkin sayısal bilgiler bulabilirsiniz. Görsellere tıklayarak detayları görüntüleyebilir ve düzenleyebilirsiniz."
+      }
+    },
+    "sirket": {
+      "title": {
+        "danışman": "Şirket Modülü",
+        "yönetici": "Şirket Modülü"
+      },
+      "description": {
+        "danışman": "Aşağıdaki butonları kullanarak ilgili şirketin birim listesi ve temsilcileri ile şirkete ait fiziksel veya elektronik varlıkları görüntüleyebilir ve düzenleyebilirsiniz. Organizasyon yapısındaki değişiklikleri, kullanıcılara erişim hakkı tanımak veya mevcut yetkileri kaldırmak için yapabilirsiniz. Ayrıca varlık kartlarındaki güncellemeler, veri işleme kartlarındaki saklama alanları listesine doğrudan yansıyacaktır.",
+        "yönetici": "Aşağıdaki butonları kullanarak şirketinizin birim listesi ve temsilcileri ile şirkete ait fiziksel veya elektronik varlıkları görüntüleyebilir ve düzenleyebilirsiniz. Organizasyon yapısındaki değişiklikleri, kullanıcılara erişim hakkı tanımak veya mevcut yetkileri kaldırmak için yapabilirsiniz. Ayrıca varlık kartlarındaki güncellemeler, veri işleme kartlarındaki saklama alanları listesine doğrudan yansıyacaktır."
+      }
+    },
+    "envanter": {
+      "title": {
+        "danışman": "Envanter Modülü",
+        "yönetici": "Envanter Modülü",
+        "temsilci": "Envanter Modülü"
+      },
+      "description": {
+        "danışman": "Aşağıdaki butonları kullanarak ilgili şirkete ait kişisel veri işleme, tedarikçi, kamu aktarımları veya diğer aktarım kartlarına erişebilirsiniz. Bu bölümlerdeki kartlar ve detaylar, şirketin kişisel veri envanterini oluşturmaktadır. Veri koruma danışmanı olarak ilgili bölümlerdeki detayları ve değişiklikleri düzenli olarak kontrol etmeniz, kartlardaki analizlerinizi güncellemeniz ve gerektiğinde Aksiyon Modülü üzerinden ilgili birimlere görev atamanız önerilir.",
+        "yönetici": "Aşağıdaki butonları kullanarak şirketinize ait kişisel veri işleme, tedarikçi, kamu aktarımları veya diğer aktarım kartlarına erişebilirsiniz. Bu bölümlerdeki kartlar ve detaylar, şirketinizin kişisel veri envanterini oluşturmaktadır.",
+        "temsilci": "Aşağıdaki butonları kullanarak biriminize ait kişisel veri işleme, tedarikçi, kamu aktarımları veya diğer aktarım kartlarına erişebilirsiniz. Bu bölümlerdeki kartlar ve detaylar, biriminizin kişisel veri envanterini oluşturmaktadır. Birim yöneticisi olarak ilgili bölümlerdeki detayları düzenli olarak kontrol etmeniz ve değişiklikler olması halinde ilgili kartları güncellemeniz gerekmektedir."
+      }
+    },
+    "tablolar": {
+      "title": {
+        "danışman": "Tablolar",
+        "yönetici": "Tablolar"
+      },
+      "description": {
+        "danışman": "Aşağıda şirketin kişisel veri işleme ve aktarım kartlarının DpoX tarafından taranarak oluşturulmuş VERBİS bildirimlerine ilişkin özet tablolar ve tedarikçilerle standart sözleşmelerin akdedilmesinde kullanılabilecek özet tablolar bulabilirsiniz.",
+        "yönetici": "Aşağıda şirketin kişisel veri işleme ve aktarım kartlarının DpoX tarafından taranarak oluşturulmuş VERBİS bildirimlerine ilişkin özet tablolar ve tedarikçilerle standart sözleşmelerin akdedilmesinde kullanılabilecek özet tablolar bulabilirsiniz."
+      }
+    },
+    "performans": {
+      "title": {
+        "danışman": "Performans",
+        "yönetici": "Performans"
+      },
+      "description": {
+        "danışman": "Aşağıda şirket yöneticileri ve birim temsilcilerinin DpoX'e giriş kayıtlarına ilişkin detayları ve birim temsilcileri tarafından iletilen envanter güncelleme bildirimlerine ilişkin detayları bulabilirsiniz.",
+        "yönetici": "Aşağıda şirket yöneticileri ve birim temsilcilerinin DpoX'e giriş kayıtlarına ilişkin detayları ve birim temsilcileri tarafından iletilen envanter güncelleme bildirimlerine ilişkin detayları bulabilirsiniz."
+      }
+    },
+    "organizasyon": {
+      "title": {
+        "danışman": "Organizasyon Yapısı",
+        "yönetici": "Organizasyon Yapısı"
+      },
+      "description": {
+        "danışman": "Bu bölümde ilgili şirket için tanımlanan birim listesi ve birim temsilcilerini bulabilirsiniz. Ekranın sol bölümünde bulunan Birim Ekle butonu ile yeni bir birim tanımlayabilirsiniz. Tanımlanan birimlere temsilci atamak için ekranın sağ bölümünde bulunan Temsilci Ekle butonunu kullanabilirsiniz.",
+        "yönetici": "Bu bölümde şirketiniz için tanımlanan birim listesi ve birim temsilcilerini bulabilirsiniz. Ekranın sol bölümünde bulunan Birim Ekle butonu ile yeni bir birim tanımlayabilirsiniz. Tanımlanan birimlere temsilci atamak için ekranın sağ bölümünde bulunan Temsilci Ekle butonunu kullanabilirsiniz."
+      }
+    },
+    "varlik-listesi": {
+      "title": {
+        "danışman": "Varlık Kartları",
+        "yönetici": "Varlık Kartları"
+      },
+      "description": {
+        "danışman": "Aşağıdaki kartlarda ilgili şirkete ait fiziksel veya elektronik varlıkları ve bu varlıklara ilişkin temel bilgileri bulabilirsiniz. Yeni Ekle butonu ile yeni bir varlık kartı ekleyebilir, Detay butonu ile ilgili varlığın detayları üzerinde değişiklikler yapabilirsiniz.",
+        "yönetici": "Aşağıdaki kartlarda şirketinize ait fiziksel veya elektronik varlıkları ve bu varlıklara ilişkin temel bilgileri bulabilirsiniz. Yeni Ekle butonu ile yeni bir varlık kartı ekleyebilir, Detay butonu ile ilgili varlığın detayları üzerinde değişiklikler yapabilirsiniz."
+      }
+    },
+    "veri-isleme": {
+      "title": {
+        "danışman": "Veri İşleme Kartları",
+        "yönetici": "Veri İşleme Kartları",
+        "temsilci": "Veri İşleme Kartları"
+      },
+      "description": {
+        "danışman": "Aşağıdaki kartlarda ilgili şirket tarafından gerçekleştirilen kişisel veri işleme faaliyetlerine ilişkin temel bilgileri bulabilirsiniz. Filtreleme araçlarını kullanarak aradığınız özelliklere sahip kartlara daha hızlı erişebilirsiniz. Yeni Ekle butonu ile yeni bir veri işleme faaliyeti ekleyebilir, Detay butonu ile ilgili veri işleme faaliyetinin detaylarını inceleyebilir ve Etki Analizi sekmesine tıklayarak analizlerinizi aktarabilirsiniz.",
+        "yönetici": "Aşağıdaki kartlarda şirketiniz tarafından gerçekleştirilen kişisel veri işleme faaliyetlerine ilişkin temel bilgileri bulabilirsiniz. Filtreleme araçlarını kullanarak aradığınız özelliklere sahip kartlara daha hızlı erişebilirsiniz. Detay butonu ile ilgili veri işleme faaliyetinin detaylarını ve veri koruma danışmanınız tarafından yapılan analizleri inceleyebilirsiniz.",
+        "temsilci": "Aşağıdaki kartlarda biriminiz tarafından gerçekleştirilen kişisel veri işleme faaliyetlerine ilişkin temel bilgileri bulabilirsiniz. Yeni Ekle butonu ile yeni bir veri işleme faaliyeti ekleyebilir, Detay butonu ile ilgili veri işleme faaliyetinin detayları üzerinde değişiklikler yapabilirsiniz."
+      }
+    },
+    "tedarikci": {
+      "title": {
+        "danışman": "Tedarikçi Kartları",
+        "yönetici": "Tedarikçi Kartları",
+        "temsilci": "Tedarikçi Kartları"
+      },
+      "description": {
+        "danışman": "Aşağıdaki kartlarda ilgili şirkete tanımlı tedarikçilere ilişkin temel bilgileri bulabilirsiniz. Filtreleme araçlarını kullanarak aradığınız özelliklere sahip tedarikçilere daha hızlı erişebilirsiniz. Yeni Ekle butonu ile yeni bir tedarikçi kartı ekleyebilir, Detay butonu ile ilgili tedarikçiye ilişkin detayları inceleyebilir ve Değerlendirme sekmesine tıklayarak analizlerinizi aktarabilirsiniz.",
+        "yönetici": "Aşağıdaki kartlarda şirketinize tanımlı tedarikçilere ilişkin temel bilgileri bulabilirsiniz. Filtreleme araçlarını kullanarak aradığınız özelliklere sahip kartlara daha hızlı erişebilirsiniz. Detay butonu ile ilgili tedarikçiye ve tedarikçiye aktarılan kişisel verilere ilişkin detayları ve veri koruma danışmanınız tarafından yapılan analizleri inceleyebilirsiniz.",
+        "temsilci": "Aşağıdaki kartlarda biriminize tanımlı tedarikçilere ilişkin temel bilgileri bulabilirsiniz. Yeni Ekle butonu ile yeni bir tedarikçi kartı ekleyebilir, Detay butonu ile ilgili tedarikçiye ve tedarikçiye aktarılan kişisel verilere ilişkin detaylar üzerinde değişiklikler yapabilirsiniz."
+      }
+    },
+    "kamu-aktarim": {
+      "title": {
+        "danışman": "Kamu Aktarımları",
+        "yönetici": "Kamu Aktarımları",
+        "temsilci": "Kamu Aktarımları"
+      },
+      "description": {
+        "danışman": "Aşağıdaki kartlarda şirket tarafından kamu kurumlarına aktarılan kişisel verilere ilişkin temel bilgileri bulabilirsiniz. Filtreleme araçlarını kullanarak aradığınız özelliklere sahip kartlara daha hızlı erişebilirsiniz. Yeni Ekle butonu ile yeni bir kamu aktarımı faaliyeti ekleyebilir, Detay butonu ile ilgili veri aktarımı faaliyetinin detaylarını inceleyebilir ve Değerlendirme sekmesine tıklayarak analizlerinizi aktarabilirsiniz.",
+        "yönetici": "Aşağıdaki kartlarda şirketiniz tarafından kamu kurumlarına aktarılan kişisel verilere ilişkin temel bilgileri bulabilirsiniz. Filtreleme araçlarını kullanarak aradığınız özelliklere sahip kartlara daha hızlı erişebilirsiniz. Detay butonu ile aktarılan kişisel verilere ilişkin detayları ve veri koruma danışmanınız tarafından yapılan analizleri inceleyebilirsiniz.",
+        "temsilci": "Aşağıdaki kartlarda biriminiz tarafından kamu kurumlarına aktarılan kişisel verilere ilişkin temel bilgileri bulabilirsiniz. Yeni Ekle butonu ile yeni bir kamu aktarımı faaliyeti ekleyebilir, Detay butonu ile aktarılan kişisel verilere ilişkin detaylar üzerinde değişiklikler yapabilirsiniz."
+      }
+    },
+    "diger-aktarim": {
+      "title": {
+        "danışman": "Diğer Aktarımlar",
+        "yönetici": "Diğer Aktarımlar",
+        "temsilci": "Diğer Aktarımlar"
+      },
+      "description": {
+        "danışman": "Aşağıda yer alan kartlarda şirket tarafından tedarikçiler veya kamu kurumları dışındaki kuruluşlara aktarılan kişisel verilere dair temel bilgileri bulabilir, filtreleme araçları ile aradığınız özelliklere sahip kartlara daha hızlı ulaşabilirsiniz. Yeni Ekle butonu üzerinden yeni bir aktarım faaliyeti ekleyebilir, Detay butonu üzerinden ise ilgili veri aktarım faaliyetine dair detayları inceleyebilir ve Değerlendirme sekmesine tıklayarak analizlerinizi aktarabilirsiniz.",
+        "yönetici": "Aşağıda yer alan kartlarda şirketinizce tedarikçiler veya kamu kurumları dışındaki kuruluşlara aktarılan kişisel verilere dair temel bilgileri bulabilir, filtreleme araçları ile aradığınız özelliklere sahip kartlara daha hızlı ulaşabilirsiniz. Detay butonu üzerinden aktarılan kişisel verilere dair detayları ve veri koruma danışmanınızca yapılan analizleri inceleyebilirsiniz.",
+        "temsilci": "Aşağıda yer alan kartlarda biriminizce tedarikçiler veya kamu kurumları dışındaki kuruluşlara aktarılan kişisel verilere dair temel bilgileri bulabilirsiniz. Yeni Ekle butonu üzerinden yeni bir aktarım faaliyeti ekleyebilir, Detay butonu üzerinden ise aktarılan kişisel verilere dair detaylar üzerinde değişiklik yapabilirsiniz."
+      }
+    },
+    "aksiyonlar": {
+      "title": {
+        "danışman": "Aksiyon Modülü",
+        "yönetici": "Aksiyon Modülü",
+        "temsilci": "Aksiyon Modülü"
+      },
+      "description": {
+        "danışman": "Aşağıda şirket birimlerine atanan görevleri, son tamamlanma tarihlerini, bağlantılı dokümanları, risk derecelerini ve tamamlanma durumlarını bulabilirsiniz. Aksiyon Ekle butonu üzerinden şirket departmanlarına yeni bir görevlendirme atayabilir, her bir aksiyonun İşlem sütununda bulunan butonlar üzerinden ise ilgili aksiyonu düzenleyebilir veya silebilirsiniz. Sağ üstte yer alan Arşiv butonu üzerinden ise arşivlenmiş aksiyonlara dair listeye ulaşabilirsiniz.",
+        "yönetici": "Aşağıda şirketinize tanımlı departmanlara atanan görevleri, son tamamlanma tarihlerini, bağlantılı dokümanları ve risk derecelerini bulabilirsiniz. Her bir aksiyon isminin altında yer alan ''Açıklama için tıklayınız ...'' ifadesine tıklayarak ilgili görevlendirmeye ilişkin detaylı açıklamalara erişebilir, Doküman sütununda yer alan simgeye tıklayarak ilgili dokümanı bilgisayarınıza indirebilirsiniz.",
+        "temsilci": "Aşağıda biriminize atanan görevleri, son tamamlanma tarihlerini, bağlantılı dokümanları ve risk derecelerini bulabilirsiniz. Her bir aksiyon isminin altında yer alan ''Açıklama için tıklayınız ...'' ifadesine tıklayarak ilgili görevlendirmeye ilişkin detaylı açıklamalara erişebilir, Doküman sütununda yer alan simgeye tıklayarak ilgili dokümanı bilgisayarınıza indirebilirsiniz. İlgili aksiyonun biriminizca tamamlanması akabinde ise Durumu sütununda bulunan buton üzerinden aksiyon durumunu ''Tamamlandı'' olarak işaretleyerek danışmanınıza ve yönetime bilgi verebilirsiniz."
+      }
+    },
+    "dokumanlar": {
+      "title": {
+        "danışman": "Doküman Listesi",
+        "yönetici": "Doküman Listesi",
+        "temsilci": "Doküman Listesi"
+      },
+      "description": {
+        "danışman": "Aşağıda şirketin kişisel verilerin korunması düzenlemelerine uyum sağlaması adına bugüne kadar hazırlanmış tüm dokümanları bulabilirsiniz. İlgili satırda yer alan doküman simgesine tıklayarak ilgili dokümanı bilgisayarınıza indirebilirsiniz. Arşiv butonu üzerinden arşivlenmiş dokümanları görüntüleyebilir, Doküman Ekle butonu üzerinden ise yeni bir doküman ekleyebilirsiniz.",
+        "yönetici": "Aşağıda şirketin kişisel verilerin korunması düzenlemelerine uyum sağlaması adına bugüne kadar hazırlanmış tüm dokümanları bulabilirsiniz. İlgili satırda yer alan doküman simgesine tıklayarak ilgili dokümanı bilgisayarınıza indirebilir, Arşiv butonu üzerinden ise arşivlenmiş dokümanları görüntüleyebilirsiniz.",
+        "temsilci": "Aşağıda şirketin kişisel verilerin korunması düzenlemelerine uyum sağlaması adına bugüne kadar hazırlanmış tüm dokümanları bulabilirsiniz. İlgili satırda yer alan doküman simgesine tıklayarak ilgili dokümanı bilgisayarınıza indirebilir, Arşiv butonu üzerinden ise arşivlenmiş dokümanları görüntüleyebilirsiniz."
+      }
+    },
+    "dokuman-arsiv": {
+      "title": {
+        "danışman": "Doküman Arşiv Listesi",
+        "yönetici": "Doküman Arşiv Listesi",
+        "temsilci": "Doküman Arşiv Listesi"
+      },
+      "description": {
+        "danışman": "Aşağıda şirketin kişisel verilerin korunması düzenlemelerine uyum sağlaması adına bugüne kadar hazırlanmış tüm dokümanları bulabilirsiniz. İlgili satırda yer alan doküman simgesine tıklayarak ilgili dokümanı bilgisayarınıza indirebilirsiniz. Arşiv butonu üzerinden arşivlenmiş dokümanları görüntüleyebilir, Doküman Ekle butonu üzerinden ise yeni bir doküman ekleyebilirsiniz.",
+        "yönetici": "Aşağıda şirketin kişisel verilerin korunması düzenlemelerine uyum sağlaması adına bugüne kadar hazırlanmış tüm dokümanları bulabilirsiniz. İlgili satırda yer alan doküman simgesine tıklayarak ilgili dokümanı bilgisayarınıza indirebilir, Arşiv butonu üzerinden ise arşivlenmiş dokümanları görüntüleyebilirsiniz.",
+        "temsilci": "Aşağıda şirketin kişisel verilerin korunması düzenlemelerine uyum sağlaması adına bugüne kadar hazırlanmış tüm dokümanları bulabilirsiniz. İlgili satırda yer alan doküman simgesine tıklayarak ilgili dokümanı bilgisayarınıza indirebilir, Arşiv butonu üzerinden ise arşivlenmiş dokümanları görüntüleyebilirsiniz."
+      }
+    }
+  }
+}

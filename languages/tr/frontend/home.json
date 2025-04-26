@@ -1,0 +1,25 @@
+{
+  "title": "Veri Gizliliği Uyumluluğunuzu Akıllıca Yönetin",
+  "description": "DpoX, organizasyonunuzu veri koruma süreçlerini kolaylaştıran kapsamlı bir araç setiyle güçlendirir ve gizlilik yasaları ile yönetmeliklerine sorunsuz uyum sağlar.",
+  "activateDemo": "DEMO HESABINIZI AKTİFLEŞTİRİN VE ÜCRETSİZ DENEYİN",
+  "card1": {
+    "title": "DpoX ile Sadece Bir Haftada Sorunsuz Entegrasyon",
+    "description": "Özel kurulum ekibimizin desteğiyle, Kişisel Veri İşleme Envanterinizi ve organizasyonel çerçevenizi DpoX'a zahmetsizce taşıyın. Optimize edilmiş kurulum sürecinin ardından, DpoX platformuna Yönetici hesabınız üzerinden erişim sağlayabileceksiniz.\n\nBu erişim, departman temsilcilerinizi ve Veri Koruma Görevlinizi gerekli izinlerle yetkilendirmenizi sağlar, böylece veri yönetiminiz en iyi uygulamalarla uyumlu hale gelir."
+  },
+  "card2": {
+    "title": "Envanterinizi DpoX ile Zahmetsizce Güncel Tutun",
+    "description": "DpoX, kurulum sonrası departmanlarınızın veri işleme ve transfer faaliyetlerinin yönetimini ve güncellenmesini basitleştirir. Departman temsilcilerinin operasyonlarını verimli bir şekilde yönetmelerini sağlarken, şirketin Veri Koruma Görevlisini tüm değişikliklerden otomatik olarak haberdar eder.\n\nAyrıca DpoX, periyodik envanter güncelleme bildirimleri ile titiz veri yönetiminin sürdürülmesini kolaylaştırır. Bu proaktif özellik, sürekli denetimi ve departman prosedürlerinde zamanında ayarlamaları teşvik ederek, sıkı veri gizliliği standartlarını koruma taahhüdünüzü güçlendirir."
+  },
+  "card3": {
+    "title": "VKY'lerinizi Gelişmiş Analiz Araçlarıyla Güçlendirin",
+    "description": "DpoX, veri koruma görevlileri için özel olarak tasarlanmış gelişmiş bir analiz paneli sunar ve departman temsilcileri tarafından yönetilen faaliyetler üzerinde detaylı etki değerlendirmeleri yapılmasına olanak tanır. Bu işlevsellik, risklerin doğru değerlendirilmesine ve gerekli azaltma stratejilerinin oluşturulmasına yardımcı olur, ekipler içindeki iletişimi ve eylemi kolaylaştırır.\n\nAyrıca, platformun belge oluşturma özelliği, gizlilik bildirimleri, onay formları ve politikalar gibi temel uyumluluk belgelerinin taslağının hazırlanmasını ve revize edilmesini sağlayarak kişisel verilerin korunması yasalarına uyumu garanti eder."
+  },
+  "card4": {
+    "title": "DpoX ile Gerçek Zamanlı İzleme ve Denetim",
+    "description": "DpoX, gizlilik uygulamalarınızın gerçek zamanlı izlenmesini sağlayarak, kuruluşunuzun veri koruma faaliyetlerinin kapsamlı bir şekilde denetlenmesini sunar. Platformumuz sürekli olarak uyumluluk metriklerini takip eder ve sapmaları vurgular, böylece her zaman güncel kalmanızı ve proaktif adımlar atabilmenizi sağlar.\n\nDpoX'in dinamik raporlama ve uyarı sistemi ile potansiyel riskler ve uyumluluk sorunları hakkında anında görünürlük kazanır, hızlı karar verme ve veri koruma düzenlemelerine sorunsuz uyum sağlayabilirsiniz."
+  },
+  "callYouBackTitle": "Aklınızda Soru mu Var?",
+  "callYouBackSubtitle": "Sizin İçin Buradayız.",
+  "callYouBackDescription": "Daha fazla bilgi almak veya çevrimiçi görüşmek mi istiyorsunuz? Her adımda size yol göstermekten mutluluk duyarız. Birebir yardım için ekibimizle iletişime geçin.",
+  "callYouBackButton": "Sizi Arayalım"
+}

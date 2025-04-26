@@ -1,0 +1,33 @@
+{
+  "title": "Activate Your Free DpoX Demo Account",
+  "description": "With your demo account, you'll have full access to all DpoX modules. Explore everything, including the data mapping module, assessment tools, vendor screening, document drafting, and monitoring features.",
+  "features": {
+    "Records of Processing": "Records of Processing",
+    "Assessment Tools": "Assessment Tools",
+    "Vendor Screening": "Vendor Screening",
+    "Document Drafting": "Document Drafting",
+    "Real Time Monitoring": "Real Time Monitoring"
+  },
+  "form": {
+    "fullName": "Your Full Name",
+    "fullNamePlaceholder": "Full Name",
+    "companyName": "Company Name",
+    "companyNamePlaceholder": "Company Name",
+    "employeeCount": "Number of employees including you:",
+    "justMe": "Just me",
+    "moreThan300": "300+",
+    "region": "Region",
+    "regionPlaceholder": "Select your region",
+    "Europe": "Europe",
+    "United Kingdom": "United Kingdom",
+    "Türkiye": "Türkiye",
+    "Other": "Other",
+    "email": "Email",
+    "emailPlaceholder": "Email",
+    "terms": "By clicking this checkbox, you agree to the <link>DpoX Terms of Service</link>.",
+    "submit": "Submit",
+    "pleaseComplete": "Please complete the following fields"
+  },
+  "successMessage": "Your demo account request has been received successfully. We will contact you soon.",
+  "privacyNotice": "We value your privacy and are dedicated to safeguarding your personal information. By submitting this form, you acknowledge that the personal details you provide, such as your name, surname, company name, position, email address, and contact number, will be processed exclusively to address your inquiry, inform you about our services, and customize our offerings to your needs. For comprehensive details on our data processing practices, your rights, and how to contact us, please view our <link>Privacy Policy</link>"
+} 

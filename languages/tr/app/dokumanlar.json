@@ -1,0 +1,108 @@
+{
+  "title": "Döküman Listesi",
+  "buttons": {
+    "archive": "Arşiv",
+    "addDocument": "Döküman Ekle",
+    "currentDocuments": "Güncel Dökümanlar"
+  },
+  "table": {
+    "show": "Göster",
+    "search": "Arama...",
+    "columns": {
+      "documentName": "Döküman İsmi",
+      "documentType": "Döküman Türü",
+      "lastUpdate": "Son Güncelleme",
+      "document": "Döküman",
+      "actions": "İşlem"
+    },
+    "noData": "Döküman bulunamadı."
+  },
+  "actions": {
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "archive": "Arşivle",
+    "unarchive": "Arşivden Çıkar",
+    "download": "Dosyayı indir"
+  },
+  "fileTypes": {
+    "pdf": "PDF Dosyası",
+    "word": "Word Dosyası",
+    "other": "Diğer Dosya"
+  },
+  "toast": {
+    "deleting": "\"{name}\" siliniyor...",
+    "deleteSuccess": "\"{name}\" başarıyla silindi",
+    "deleteError": "\"{name}\" silinemedi: {error}",
+    "addLoading": "Doküman yükleniyor...",
+    "addSuccess": "Doküman başarıyla eklendi",
+    "addError": "Hata: {error}",
+    "archiving": "\"{name}\" arşivleniyor...",
+    "archiveSuccess": "\"{name}\" başarıyla arşivlendi",
+    "archiveError": "\"{name}\" arşivlenemedi: {error}",
+    "unarchiving": "\"{name}\" arşivden çıkarılıyor...",
+    "unarchiveSuccess": "\"{name}\" başarıyla arşivden çıkarıldı",
+    "unarchiveError": "\"{name}\" arşivden çıkarılamadı: {error}",
+    "updating": "\"{name}\" güncelleniyor...",
+    "updateSuccess": "\"{name}\" başarıyla güncellendi",
+    "updateError": "\"{name}\" güncellenemedi: {error}",
+    "fetchingError": "Doküman bilgileri alınamadı: {error}"
+  },
+  "modal": {
+    "deleteTitle": "Döküman Sil",
+    "deleteMessage": "\"{name}\" dökümanını silmek istediğinize emin misiniz?",
+    "archiveTitle": "Emin misiniz?",
+    "archiveMessage": "Bu dökümanı arşivlemek istediğinize emin misiniz?",
+    "unarchiveTitle": "Arşivden Çıkar",
+    "unarchiveMessage": "\"{name}\" dökümanını arşivden çıkarmak istediğinize emin misiniz?",
+    "confirmDelete": "Evet, Sil",
+    "confirmArchive": "Evet, Arşivle",
+    "confirmUnarchive": "Evet, Arşivden Çıkar",
+    "cancel": "İptal"
+  },
+  "archive": {
+    "title": "Arşivlenmiş Dökümanlar",
+    "noData": "Arşivlenmiş döküman bulunamadı"
+  },
+  "addModal": {
+    "title": "Döküman Ekle",
+    "documentName": "Döküman İsmi",
+    "documentNamePlaceholder": "Döküman adını girin",
+    "documentType": "Döküman Türü",
+    "documentTypePlaceholder": "Seçiniz",
+    "lastUpdateDate": "Son Güncelleme Tarihi",
+    "lastUpdatePlaceholder": "Tarih seçiniz",
+    "lastUpdateDescription": "Tarih seçilmezse bugünün tarihi kullanılacaktır",
+    "addDocumentLabel": "Döküman Ekle",
+    "selectFile": "Dosya Seç",
+    "supportedFileTypes": "Desteklenen dosya türleri: PDF, DOC, DOCX",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "validation": {
+      "requiredFields": "Lütfen doküman ismi ve türünü belirtiniz.",
+      "requiredFile": "Lütfen bir dosya seçiniz."
+    }
+  },
+  "updateModal": {
+    "title": "Döküman Güncelle",
+    "documentName": "Döküman İsmi",
+    "documentNamePlaceholder": "Döküman adını girin",
+    "documentType": "Döküman Türü",
+    "documentTypePlaceholder": "Seçiniz",
+    "lastUpdateDate": "Son Güncelleme Tarihi",
+    "lastUpdatePlaceholder": "Tarih seçiniz",
+    "lastUpdateDescription": "Tarih seçilmezse bugünün tarihi kullanılacaktır",
+    "updateDocumentLabel": "Döküman Güncelle",
+    "currentFile": "Mevcut Dosya",
+    "selectNewFile": "Yeni Dosya Seç",
+    "noFileSelected": "Dosya seçilmedi",
+    "keepCurrentFile": "Mevcut dosyayı kullan",
+    "supportedFileTypes": "Desteklenen dosya türleri: PDF, DOC, DOCX",
+    "loading": "Döküman bilgileri yükleniyor...",
+    "error": "Döküman bilgilerine erişilemiyor",
+    "cancel": "İptal",
+    "save": "Güncelle",
+    "validation": {
+      "requiredFields": "Lütfen doküman ismi ve türünü belirtiniz."
+    }
+  }
+} 

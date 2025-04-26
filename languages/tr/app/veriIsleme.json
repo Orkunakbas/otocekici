@@ -1,0 +1,54 @@
+{
+  "title": "Veri İşleme Faaliyetleri",
+  "loading": "Veri işleme faaliyetleri yükleniyor...",
+  "loadingDetails": "Veriler yükleniyor... Lütfen bekleyin.",
+  "error": "Veri işleme faaliyetleri yüklenirken bir hata oluştu.",
+  "empty": "Herhangi bir veri işleme faaliyeti bulunamadı.",
+  "delete": {
+    "confirm": "Bu veri işleme faaliyetini silmek istediğinizden emin misiniz?",
+    "success": "Veri işleme faaliyeti başarıyla silindi",
+    "error": "Veri işleme faaliyeti silinirken bir hata oluştu"
+  },
+  "fields": {
+    "surec_ismi": "Süreç İsmi",
+    "faaliyet_amaci": "Faaliyet Amacı",
+    "related_person": "İlgili Kişi",
+    "personal_data": "Kişisel Veriler",
+    "last_update": "Son Güncelleme",
+    "updated_by": "Güncelleyen"
+  },
+  "buttons": {
+    "details": "Detay",
+    "delete": "Sil",
+    "add": "Yeni Ekle",
+    "save": "Kaydet",
+    "cancel": "İptal"
+  },
+  "tabs": {
+    "kartDetaylari": "Kart Detayları",
+    "etkiAnalizi": "Etki Analizi"
+  },
+  "no_data": "Veri mevcut değil",
+  "toast": {
+    "adding": "Veri işleme faaliyeti ekleniyor...",
+    "addSuccess": "Veri işleme faaliyeti başarıyla eklendi.",
+    "addError": "Bir hata oluştu. Veri işleme faaliyeti eklenemedi.",
+    "deleting": "Veri işleme faaliyeti siliniyor...",
+    "deleteSuccess": "Veri işleme faaliyeti başarıyla silindi.",
+    "deleteError": "Veri işleme faaliyeti silinemedi.",
+    "updating": "Veri işleme faaliyeti güncelleniyor...",
+    "updateSuccess": "Veri işleme faaliyeti başarıyla güncellendi.",
+    "updateError": "Veri işleme faaliyeti güncellenemedi."
+  },
+  "modal": {
+    "deleteTitle": "Veri İşleme Faaliyetini Sil",
+    "deleteMessage": "Bu veri işleme faaliyetini silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+    "confirmDelete": "Evet, Sil",
+    "cancel": "Vazgeç",
+    "detailTitle": "Veri İşleme Faaliyeti Detayları"
+  },
+  "form": {
+    "requiredFields": "Lütfen zorunlu alanları doldurunuz.",
+    "otherPurposeRequired": "Lütfen faaliyet amacını yazınız."
+  }
+}

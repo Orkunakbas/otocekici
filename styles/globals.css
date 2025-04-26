@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Özel animasyonlar */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.animate-fadeOut {
+  animation: fadeOut 0.3s ease-in-out;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-background {
+  background-image: linear-gradient(0deg, rgb(54, 0, 51), #9e192d);
+}
+
+.secondary {
+  background-image: linear-gradient(270deg, rgb(54, 0, 51), #9e192d) !important;
+  color: white;
+}
+
+:root {
+  --toast-bg: #ffffff;
+  --toast-color: #0f172a;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-background {
+  background-image: linear-gradient(0deg, rgb(54, 0, 51), #9e192d);
+}
+
+.text-black {
+  color: black !important;
+}
+
+.secondary {
+  background-image: linear-gradient(270deg, rgb(54, 0, 51), #9e192d) !important;
+  color: white;
+}
+
