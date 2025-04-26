@@ -2,7 +2,7 @@
 const config = {
   i18n: {
     locales: ['tr', 'en'],
-    defaultLocale: 'tr'
+    defaultLocale: 'en'
   }
 };
 
