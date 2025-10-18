@@ -153,7 +153,7 @@ const Index = () => {
             "description": "İstanbul'un 39 ilçesinde 7/24 profesyonel oto çekici ve yol yardım hizmeti. Hızlı müdahale, güvenli taşıma, uygun fiyat.",
             "@id": "https://arnavutkoy-oto-cekici.com",
             "url": "https://arnavutkoy-oto-cekici.com",
-            "telephone": "+905551234567",
+            "telephone": "+905305417208",
             "priceRange": "₺₺",
             "address": {
               "@type": "PostalAddress",
@@ -311,26 +311,36 @@ const Index = () => {
 
               {/* CTA Button */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-stretch mb-20">
-                <Button
-                  as="a"
-                  href="tel:+905551234567"
-                  size="lg"
-                  className="w-full sm:w-64 bg-white hover:bg-gray-50 text-brand-primary font-bold text-lg px-8 py-8 shadow-2xl hover:shadow-xl hover:scale-105 transition-all"
-                  startContent={<FaPhone className="w-5 h-5" />}
-                >
-                  0555 123 4567
-                </Button>
+              <Button
+                as="a"
+                href="tel:+905305417208"
+                size="lg"
+                className="w-full sm:w-auto bg-white hover:bg-gray-50 text-brand-primary font-bold text-lg px-8 py-8 shadow-2xl hover:shadow-xl hover:scale-105 transition-all"
+                startContent={<FaPhone className="w-5 h-5" />}
+              >
+                0530 541 72 08
+              </Button>
+
+              <Button
+                as="a"
+                href="tel:+905356211434"
+                size="lg"
+                className="w-full sm:w-auto bg-white hover:bg-gray-50 text-brand-primary font-bold text-lg px-8 py-8 shadow-2xl hover:shadow-xl hover:scale-105 transition-all"
+                startContent={<FaPhone className="w-5 h-5" />}
+              >
+                0535 621 14 34
+              </Button>
                 
-                <Button
-                  as="a"
-                  href="https://wa.me/905551234567"
-                  size="lg"
-                  variant="bordered"
-                  className="w-full sm:w-64 border-2 border-white/80 text-white hover:bg-white hover:text-brand-primary font-bold text-lg px-8 py-8 backdrop-blur-sm hover:scale-105 transition-all"
-                  startContent={<FaWhatsapp className="w-6 h-6" />}
-                >
-                  WhatsApp
-                </Button>
+              <Button
+                as="a"
+                href="https://wa.me/905305417208"
+                size="lg"
+                variant="bordered"
+                className="w-full sm:w-auto border-2 border-white/80 text-white hover:bg-white hover:text-brand-primary font-bold text-lg px-8 py-8 backdrop-blur-sm hover:scale-105 transition-all"
+                startContent={<FaWhatsapp className="w-6 h-6" />}
+              >
+                WhatsApp
+              </Button>
               </div>
 
               {/* Stats */}
@@ -559,15 +569,27 @@ const Index = () => {
                 İstanbul genelinde 7/24 profesyonel oto çekici hizmeti
               </p>
               
-              <Button
-                as="a"
-                href="tel:+905551234567"
-                size="lg"
-                className="bg-white hover:bg-gray-50 text-brand-primary font-semibold text-xl px-12 py-7 shadow-xl mb-12"
-                startContent={<FaPhone className="w-5 h-5" />}
-              >
-                0555 123 4567
-              </Button>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-stretch mb-12">
+                <Button
+                  as="a"
+                  href="tel:+905305417208"
+                  size="lg"
+                  className="bg-white hover:bg-gray-50 text-brand-primary font-semibold text-xl px-12 py-7 shadow-xl"
+                  startContent={<FaPhone className="w-5 h-5" />}
+                >
+                  0530 541 72 08
+                </Button>
+
+                <Button
+                  as="a"
+                  href="tel:+905356211434"
+                  size="lg"
+                  className="bg-white hover:bg-gray-50 text-brand-primary font-semibold text-xl px-12 py-7 shadow-xl"
+                  startContent={<FaPhone className="w-5 h-5" />}
+                >
+                  0535 621 14 34
+                </Button>
+              </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-8 border-t border-white/20">
                 <div className="text-center">
@@ -701,8 +723,14 @@ const Index = () => {
                 <div className="space-y-3 text-sm">
                   <div>
                     <p className="text-gray-500 mb-1">Telefon</p>
-                    <a href="tel:+905551234567" className="text-gray-300 hover:text-white">0555 123 4567</a>
+                    <a href="tel:+905305417208" className="text-gray-300 hover:text-white">0530 541 72 08</a>
                   </div>
+                  <div>
+                  <p className="text-gray-500 mb-1">Alternatif Telefon</p>
+                  <a href="tel:+905356211434" className="text-gray-300 hover:text-white">0535 621 14 34</a>
+                  </div>
+
+                
                   <div>
                     <p className="text-gray-500 mb-1">Hizmet</p>
                     <p className="text-gray-300">7/24 Açık</p>

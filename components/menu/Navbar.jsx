@@ -171,7 +171,7 @@ const Navbar = () => {
           <NavbarItem>
             <Button 
               as={Link} 
-              href="tel:+905551234567"
+              href="tel:+905305417208"
               size="lg"
               className="bg-brand-primary hover:bg-blue-800 text-white font-semibold shadow-md hover:shadow-lg transition-all"
               startContent={<FaPhone className="w-5 h-5" />}
@@ -182,7 +182,7 @@ const Navbar = () => {
           <NavbarItem>
             <Button 
               as={Link} 
-              href="https://wa.me/905551234567"
+              href="https://wa.me/905305417208"
               size="lg"
               variant="bordered"
               className="border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-semibold transition-all"
@@ -219,21 +219,21 @@ const Navbar = () => {
             {/* Call Button */}
             <Button 
               as={Link} 
-              href="tel:+905551234567"
+              href="tel:+905305417208"
               size="lg"
               className="w-full bg-brand-primary hover:bg-blue-800 text-white font-semibold py-7 shadow-lg"
               startContent={<FaPhone className="w-5 h-5" />}
             >
               <div className="flex flex-col items-start">
                 <span className="text-xs opacity-90">Hemen Ara</span>
-                <span className="text-base font-bold">0555 123 4567</span>
+                <span className="text-base font-bold">0530 541 72 08</span>
               </div>
             </Button>
             
             {/* WhatsApp Button */}
             <Button 
               as={Link} 
-              href="https://wa.me/905551234567"
+              href="https://wa.me/905305417208"
               size="lg"
               className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-7 shadow-lg"
               startContent={<FaWhatsapp className="w-5 h-5" />}
