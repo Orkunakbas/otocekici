@@ -1,0 +1,26 @@
+# robots.txt for Arnavutköy Oto Çekici
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://arnavutkoy-oto-cekici.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 0
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Crawl-delay: 0
+

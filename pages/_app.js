@@ -9,7 +9,8 @@ import { Toaster } from 'react-hot-toast'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 import Navbar from '@/components/menu/Navbar'
-import Topbar from "@/components/menu/Topbar";
+import Topbar from "@/components/menu/Topbar"
+import MobileFixedButtons from '@/components/MobileFixedButtons'
 
 // AppContent'i düzeltelim
 function AppContent({ Component, pageProps }) {
@@ -18,9 +19,9 @@ function AppContent({ Component, pageProps }) {
   // Navbar ve component'i render et
   return (
     <>
-      <Topbar/>
       <Navbar />
       <Component {...pageProps} />
+      <MobileFixedButtons />
     </>
   )
 }

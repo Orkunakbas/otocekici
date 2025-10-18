@@ -1,451 +1,252 @@
-import React, { useState, useEffect } from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
-import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Chip } from "@heroui/react"
-import { useTranslations } from 'next-intl'
-import { useRouter } from 'next/router'
-import enFlag from '@/images/en.png'
-import trFlag from '@/images/tr.png'
-import srFlag from '@/images/sr.png'
-import darkLogo from '@/images/dark-logo.png'
+import React from 'react'
+import {
+  Navbar as HeroNavbar,
+  NavbarBrand,
+  NavbarContent,
+  NavbarItem,
+  NavbarMenuToggle,
+  NavbarMenu,
+  NavbarMenuItem,
+  Link,
+  Button
+} from "@heroui/react"
+import { Truck, Phone } from 'lucide-react'
+import { FaWhatsapp } from 'react-icons/fa'
 
 const Navbar = () => {
-  const t = useTranslations('frontend.navbar')
-  const router = useRouter()
-  const { locale } = router
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [activeSubmenu, setActiveSubmenu] = useState(null)
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false)
 
-  // Dil değişikliği işlemi
-  const handleLanguageChange = (newLocale) => {
-    router.push(router.asPath, router.asPath, { 
-      locale: newLocale,
-      scroll: false 
-    });
-  }
-
-  // Bayrak görüntüsünü seç
-  const getFlag = (lang) => {
-    switch(lang) {
-      case 'en': return enFlag;
-      case 'sr': return srFlag;
-      default: return trFlag;
-    }
-  }
-
-  // Alt menü açma/kapama işlevi
-  const toggleSubmenu = (menu) => {
-    setActiveSubmenu(activeSubmenu === menu ? null : menu);
-  }
-
-  // Sayfa değiştiğinde menüyü kapat
-  useEffect(() => {
-    setIsMenuOpen(false);
-    setActiveSubmenu(null);
-  }, [router.asPath]);
-
-  // Body scroll kilidi
-  useEffect(() => {
-    if (isMenuOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
-    }
-    return () => {
-      document.body.style.overflow = '';
-    };
-  }, [isMenuOpen]);
+  const menuItems = [
+    { name: "Ana Sayfa", href: "#" },
+    { name: "Hizmetlerimiz", href: "#hizmetler" },
+    { name: "Bölgeler", href: "#bolgeler" },
+    { name: "İletişim", href: "#iletisim" }
+  ]
 
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200">
-        <div className="max-w-[1600px] w-full mx-auto px-6">
-          <div className="flex justify-between items-center h-20">
-            {/* Hamburger Menu Button (sadece mobilde) */}
-            <button 
-              className="md:hidden text-[#230060] focus:outline-none"
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              aria-label="Menu"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      {/* Main Navbar - Ultra Clean */}
+      <HeroNavbar 
+        onMenuOpenChange={setIsMenuOpen}
+        isMenuOpen={isMenuOpen}
+        className="bg-white/95 backdrop-blur-sm shadow-sm border-b border-gray-100"
+        maxWidth="xl"
+        height="80px"
+      >
+        <NavbarContent>
+          <NavbarMenuToggle
+            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+            className="sm:hidden text-brand-primary"
+          />
+          <NavbarBrand>
+            <Link href="#" className="flex items-center gap-3 group">
+              {/* Premium Tow Truck SVG Logo */}
+              <svg width="56" height="56" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" className="group-hover:scale-105 transition-transform">
+                <defs>
+                  <linearGradient id="truckGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stopColor="#1e40af" />
+                    <stop offset="100%" stopColor="#1e3a8a" />
+                  </linearGradient>
+                  <linearGradient id="cabinGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stopColor="#1e3a8a" />
+                    <stop offset="100%" stopColor="#1e40af" />
+                  </linearGradient>
+                </defs>
+                
+                {/* Ground Shadow */}
+                <ellipse cx="40" cy="68" rx="32" ry="4" fill="#000000" opacity="0.1" />
+                
+                {/* Main Truck Bed - Lower */}
+                <rect x="8" y="42" width="36" height="4" fill="#1e3a8a" />
+                <rect x="8" y="32" width="36" height="10" rx="1.5" fill="url(#truckGradient)" />
+                
+                {/* Side Panel Details */}
+                <rect x="12" y="35" width="6" height="4" rx="0.5" fill="#3b82f6" opacity="0.3" />
+                <rect x="21" y="35" width="6" height="4" rx="0.5" fill="#3b82f6" opacity="0.3" />
+                <rect x="30" y="35" width="6" height="4" rx="0.5" fill="#3b82f6" opacity="0.3" />
+                
+                {/* Cabin Structure */}
+                <path d="M44 32 L44 46 L64 46 L64 36 L54 32 Z" fill="url(#cabinGradient)" />
+                <path d="M44 32 L54 32 L64 36 L64 34 L54 30 L44 30 Z" fill="#1e40af" />
+                
+                {/* Cabin Window - Realistic */}
+                <path d="M47 34 L47 42 L61 42 L61 36 L54 34 Z" fill="#bfdbfe" opacity="0.9" />
+                <path d="M47 34 L54 34 L61 36 L61 35 L54 33 L47 33 Z" fill="#93c5fd" opacity="0.7" />
+                <line x1="54" y1="34" x2="54" y2="42" stroke="#1e3a8a" strokeWidth="0.5" opacity="0.3" />
+                
+                {/* Tow Crane Boom - Heavy Duty */}
+                <rect x="42" y="16" width="3" height="16" rx="1" fill="#1e3a8a" transform="rotate(-25 44 24)" />
+                <rect x="42" y="15" width="4" height="2" rx="1" fill="#1e40af" />
+                
+                {/* Crane Pulley System */}
+                <circle cx="56" cy="16" r="3" fill="#f59e0b" stroke="#d97706" strokeWidth="1" />
+                <circle cx="56" cy="16" r="1.5" fill="#fbbf24" />
+                
+                {/* Hook and Cable */}
+                <line x1="56" y1="19" x2="66" y2="32" stroke="#4b5563" strokeWidth="1.5" strokeLinecap="round" strokeDasharray="2,1" />
+                <path d="M66 32 L68 35 L66 38 L64 35 Z" fill="#6b7280" />
+                <ellipse cx="66" cy="35" rx="2" ry="3" fill="#4b5563" />
+                
+                {/* Warning Light Bar */}
+                <rect x="46" y="30" width="16" height="1.5" rx="0.75" fill="#1f2937" />
+                <circle cx="50" cy="30.75" r="0.8" fill="#ef4444" className="animate-pulse" />
+                <circle cx="54" cy="30.75" r="0.8" fill="#f59e0b" className="animate-pulse" />
+                <circle cx="58" cy="30.75" r="0.8" fill="#ef4444" className="animate-pulse" />
+                
+                {/* Front Grille */}
+                <rect x="62" y="40" width="2" height="6" rx="0.5" fill="#1f2937" />
+                <line x1="62.5" y1="41" x2="62.5" y2="45" stroke="#374151" strokeWidth="0.3" />
+                <line x1="63.5" y1="41" x2="63.5" y2="45" stroke="#374151" strokeWidth="0.3" />
+                
+                {/* Headlights */}
+                <circle cx="63" cy="43" r="1.2" fill="#fef3c7" />
+                <circle cx="63" cy="43" r="0.8" fill="#fde047" />
+                
+                {/* Wheels - Detailed */}
+                <g>
+                  {/* Rear Wheel */}
+                  <circle cx="18" cy="46" r="8" fill="#1f2937" />
+                  <circle cx="18" cy="46" r="6" fill="#374151" />
+                  <circle cx="18" cy="46" r="4" fill="#4b5563" />
+                  <circle cx="18" cy="46" r="2" fill="#6b7280" />
+                  <circle cx="18" cy="46" r="1" fill="#9ca3af" />
+                  {/* Wheel Spokes */}
+                  <line x1="18" y1="42" x2="18" y2="50" stroke="#6b7280" strokeWidth="0.5" />
+                  <line x1="14" y1="46" x2="22" y2="46" stroke="#6b7280" strokeWidth="0.5" />
+                </g>
+                
+                <g>
+                  {/* Middle Wheel */}
+                  <circle cx="34" cy="46" r="8" fill="#1f2937" />
+                  <circle cx="34" cy="46" r="6" fill="#374151" />
+                  <circle cx="34" cy="46" r="4" fill="#4b5563" />
+                  <circle cx="34" cy="46" r="2" fill="#6b7280" />
+                  <circle cx="34" cy="46" r="1" fill="#9ca3af" />
+                  <line x1="34" y1="42" x2="34" y2="50" stroke="#6b7280" strokeWidth="0.5" />
+                  <line x1="30" y1="46" x2="38" y2="46" stroke="#6b7280" strokeWidth="0.5" />
+                </g>
+                
+                <g>
+                  {/* Front Wheel */}
+                  <circle cx="56" cy="46" r="8" fill="#1f2937" />
+                  <circle cx="56" cy="46" r="6" fill="#374151" />
+                  <circle cx="56" cy="46" r="4" fill="#4b5563" />
+                  <circle cx="56" cy="46" r="2" fill="#6b7280" />
+                  <circle cx="56" cy="46" r="1" fill="#9ca3af" />
+                  <line x1="56" y1="42" x2="56" y2="50" stroke="#6b7280" strokeWidth="0.5" />
+                  <line x1="52" y1="46" x2="60" y2="46" stroke="#6b7280" strokeWidth="0.5" />
+                </g>
+                
+                {/* Mud Flaps */}
+                <rect x="16" y="52" width="4" height="6" rx="0.5" fill="#1f2937" opacity="0.6" />
+                <rect x="32" y="52" width="4" height="6" rx="0.5" fill="#1f2937" opacity="0.6" />
+                
+                {/* Front Bumper */}
+                <rect x="64" y="42" width="4" height="4" rx="1" fill="#1e40af" />
+                <rect x="66" y="43" width="1.5" height="2" rx="0.5" fill="#fbbf24" />
               </svg>
-            </button>
-
-            {/* Logo (solda) */}
-            <div className="flex justify-start items-center">
-              <Link href="/" locale={locale}>
-                <Image
-                  src={darkLogo}
-                  alt="Logo"
-                  width={120}
-                  height={40}
-                  priority
-                  className="h-auto"
-                />
-              </Link>
-            </div>
-
-            {/* Desktop Menüler (ortada) */}
-            <div className="hidden md:flex flex-1 justify-center items-center space-x-8">
-              {/* Balkan Turları */}
-              <div className="relative group">
-                <button className="text-gray-700 hover:text-amber-800 font-medium flex items-center space-x-1">
-                  <span>{t('balkanTours')}</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-4 h-4 transition-transform group-hover:rotate-180">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                <div className="absolute left-0 mt-2 w-56 origin-top-left transform scale-95 opacity-0 invisible group-hover:scale-100 group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-in-out bg-white shadow-lg rounded-md p-2 z-50">
-                  <Link
-                    href="/balkan-tours/daily-tours"
-                    locale={locale}
-                    className="block px-4 py-2 text-gray-700 hover:bg-amber-50 hover:text-amber-800 rounded-md"
-                  >
-                    {t('oneDayTours')}
-                  </Link>
-                  <Link
-                    href="/balkan-tours/multi-day-tours"
-                    locale={locale}
-                    className="block px-4 py-2 text-gray-700 hover:bg-amber-50 hover:text-amber-800 rounded-md"
-                  >
-                    {t('multiDayTours')}
-                  </Link>
-                </div>
-              </div>
               
-              {/* Sırbistan Turları */}
-              <div className="relative group">
-                <button className="text-gray-700 hover:text-amber-800 font-medium flex items-center space-x-1">
-                  <span>{t('serbiaTours')}</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-4 h-4 transition-transform group-hover:rotate-180">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                <div className="absolute left-0 mt-2 w-56 origin-top-left transform scale-95 opacity-0 invisible group-hover:scale-100 group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-in-out bg-white shadow-lg rounded-md p-2 z-50">
-                  <Link
-                    href="/serbia-tours/daily-tours"
-                    locale={locale}
-                    className="block px-4 py-2 text-gray-700 hover:bg-amber-50 hover:text-amber-800 rounded-md"
-                  >
-                    {t('oneDayTours')}
-                  </Link>
-                  <Link
-                    href="/serbia-tours/multi-day-tours"
-                    locale={locale}
-                    className="block px-4 py-2 text-gray-700 hover:bg-amber-50 hover:text-amber-800 rounded-md"
-                  >
-                    {t('multiDayTours')}
-                  </Link>
-                </div>
-              </div>
-              
-              {/* Yat Turları */}
-              <div className="relative group">
-                <button className="text-gray-700 hover:text-amber-800 font-medium flex items-center space-x-1">
-                  <span>{t('yachtTours')}</span>
-                  <Chip className="ml-1 bg-amber-100 text-amber-800 text-xs font-semibold py-0.5 px-1.5" size="sm">{t('new')}</Chip>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-4 h-4 transition-transform group-hover:rotate-180">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                <div className="absolute left-0 mt-2 w-56 origin-top-left transform scale-95 opacity-0 invisible group-hover:scale-100 group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-in-out bg-white shadow-lg rounded-md p-2 z-50">
-                  <Link
-                    href="/yacht-tours/turkey"
-                    locale={locale}
-                    className="block px-4 py-2 text-gray-700 hover:bg-amber-50 hover:text-amber-800 rounded-md"
-                  >
-                    {t('turkeyYachtTours')}
-                  </Link>
-                  <Link
-                    href="/yacht-tours/croatia"
-                    locale={locale}
-                    className="block px-4 py-2 text-gray-700 hover:bg-amber-50 hover:text-amber-800 rounded-md"
-                  >
-                    {t('croatiaYachtTours')}
-                  </Link>
-                </div>
-              </div>
-              
-              {/* SriLanka */}
-              <Link
-                href="/sri-lanka"
-                locale={locale}
-                className="text-gray-700 hover:text-amber-800 font-medium flex items-center"
-              >
-                <span>{t('sriLanka')}</span>
-                <Chip className="ml-1 bg-amber-100 text-amber-800 text-xs font-semibold py-0.5 px-1.5" size="sm">{t('new')}</Chip>
-              </Link>
-              
-              {/* Blog */}
-              <Link
-                href="/blog"
-                locale={locale}
-                className="text-gray-700 hover:text-amber-800 font-medium"
-              >
-                {t('blog')}
-              </Link>
-              
-              {/* Contact */}
-              <Link
-                href="/contact"
-                locale={locale}
-                className="text-gray-700 hover:text-amber-800 font-medium"
-              >
-                {t('contact')}
-              </Link>
-            </div>
-
-            {/* Dil Seçimi (sağda) */}
-            <Dropdown>
-              <DropdownTrigger>
-                <button className="flex items-center space-x-1 focus:outline-none">
-                  <Image
-                    src={getFlag(locale)}
-                    alt={locale === 'en' ? 'English' : locale === 'sr' ? 'Srpski' : 'Türkçe'}
-                    width={24}
-                    height={24}
-                  />
-                  <span className="text-gray-700 font-medium">{locale?.toUpperCase()}</span>
-                </button>
-              </DropdownTrigger>
-              <DropdownMenu 
-                aria-label="Language selection" 
-                onAction={handleLanguageChange}
-                className="animate-fadeIn"
-              >
-                <DropdownItem
-                  key="en"
-                  startContent={
-                    <Image
-                      src={enFlag}
-                      alt="English"
-                      width={24}
-                      height={24}
-                    />
-                  }
-                >
-                  English
-                </DropdownItem>
-                <DropdownItem
-                  key="tr"
-                  startContent={
-                    <Image
-                      src={trFlag}
-                      alt="Türkçe"
-                      width={24}
-                      height={24}
-                    />
-                  }
-                >
-                  Türkçe
-                </DropdownItem>
-                <DropdownItem
-                  key="sr"
-                  startContent={
-                    <Image
-                      src={srFlag}
-                      alt="Srpski"
-                      width={24}
-                      height={24}
-                    />
-                  }
-                >
-                  Srpski
-                </DropdownItem>
-              </DropdownMenu>
-            </Dropdown>
-          </div>
-        </div>
-      </header>
-
-      {/* Mobil Soldan Açılan Menü */}
-      <div className={`fixed inset-0 z-50 transition-opacity duration-300 ease-in-out ${isMenuOpen ? 'pointer-events-auto' : 'pointer-events-none'}`}>
-        {/* Karartılmış overlay */}
-        <div 
-          className={`absolute inset-0 bg-black transition-opacity duration-300 ${isMenuOpen ? 'opacity-50' : 'opacity-0'}`}
-          onClick={() => setIsMenuOpen(false)}
-        ></div>
-        
-        {/* Menü paneli - daha geniş */}
-        <div className={`absolute top-0 left-0 h-full w-4/5 sm:w-3/4 bg-white shadow-xl overflow-y-auto transform transition-all duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
-          <div className="p-6">
-            {/* Menü Başlık ve Kapatma */}
-            <div className="flex justify-between items-center mb-8">
-              <Image
-                src={darkLogo}
-                alt="Logo"
-                width={100}
-                height={32}
-                className="h-auto"
-              />
-              <button
-                onClick={() => setIsMenuOpen(false)}
-                className="text-gray-500 hover:text-gray-700"
-                aria-label="Close menu"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-
-            {/* Mobil Menü Öğeleri */}
-            <nav className="space-y-6">
-              {/* Balkan Turları */}
               <div>
-                <button
-                  onClick={() => toggleSubmenu('balkan')}
-                  className="flex justify-between items-center w-full text-left text-lg font-medium text-gray-800 hover:text-amber-800 transition-colors"
-                >
-                  <span>{t('balkanTours')}</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className={`w-5 h-5 transform transition-transform duration-300 ${activeSubmenu === 'balkan' ? 'rotate-180' : ''}`}>
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                <div className={`mt-2 pl-4 space-y-2 transform origin-top transition-all duration-300 ease-in-out ${activeSubmenu === 'balkan' ? 'scale-y-100 opacity-100 max-h-40' : 'scale-y-0 opacity-0 max-h-0'}`}>
-                  <Link
-                    href="/balkan-tours/one-day"
-                    locale={locale}
-                    className="block text-gray-600 hover:text-amber-800"
-                  >
-                    {t('oneDayTours')}
-                  </Link>
-                  <Link
-                    href="/balkan-tours/multi-day"
-                    locale={locale}
-                    className="block text-gray-600 hover:text-amber-800"
-                  >
-                    {t('multiDayTours')}
-                  </Link>
-                </div>
+                <p className="font-bold text-xl text-brand-primary leading-tight tracking-tight">Arnavutköy</p>
+                <p className="text-xs text-gray-600 font-semibold tracking-wide">OTO ÇEKİCİ</p>
               </div>
+            </Link>
+          </NavbarBrand>
+        </NavbarContent>
 
-              {/* Sırbistan Turları */}
-              <div>
-                <button
-                  onClick={() => toggleSubmenu('serbia')}
-                  className="flex justify-between items-center w-full text-left text-lg font-medium text-gray-800 hover:text-amber-800 transition-colors"
-                >
-                  <span>{t('serbiaTours')}</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className={`w-5 h-5 transform transition-transform duration-300 ${activeSubmenu === 'serbia' ? 'rotate-180' : ''}`}>
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                <div className={`mt-2 pl-4 space-y-2 transform origin-top transition-all duration-300 ease-in-out ${activeSubmenu === 'serbia' ? 'scale-y-100 opacity-100 max-h-40' : 'scale-y-0 opacity-0 max-h-0'}`}>
-                  <Link
-                    href="/serbia-tours/one-day"
-                    locale={locale}
-                    className="block text-gray-600 hover:text-amber-800"
-                  >
-                    {t('oneDayTours')}
-                  </Link>
-                  <Link
-                    href="/serbia-tours/multi-day"
-                    locale={locale}
-                    className="block text-gray-600 hover:text-amber-800"
-                  >
-                    {t('multiDayTours')}
-                  </Link>
-                </div>
-              </div>
-              
-              {/* Yat Turları */}
-              <div>
-                <button
-                  onClick={() => toggleSubmenu('yacht')}
-                  className="flex justify-between items-center w-full text-left text-lg font-medium text-gray-800 hover:text-amber-800 transition-colors"
-                >
-                  <div className="flex items-center">
-                    <span>{t('yachtTours')}</span>
-                    <Chip className="ml-1 bg-amber-100 text-amber-800 text-xs font-semibold py-0.5 px-1.5" size="sm">{t('new')}</Chip>
-                  </div>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className={`w-5 h-5 transform transition-transform duration-300 ${activeSubmenu === 'yacht' ? 'rotate-180' : ''}`}>
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                <div className={`mt-2 pl-4 space-y-2 transform origin-top transition-all duration-300 ease-in-out ${activeSubmenu === 'yacht' ? 'scale-y-100 opacity-100 max-h-40' : 'scale-y-0 opacity-0 max-h-0'}`}>
-                  <Link
-                    href="/yacht-tours/turkey"
-                    locale={locale}
-                    className="block text-gray-600 hover:text-amber-800"
-                  >
-                    {t('turkeyYachtTours')}
-                  </Link>
-                  <Link
-                    href="/yacht-tours/croatia"
-                    locale={locale}
-                    className="block text-gray-600 hover:text-amber-800"
-                  >
-                    {t('croatiaYachtTours')}
-                  </Link>
-                </div>
-              </div>
+        <NavbarContent className="hidden sm:flex gap-2" justify="center">
+          {menuItems.map((item, index) => (
+            <NavbarItem key={index}>
+              <Link 
+                href={item.href}
+                className="text-gray-700 hover:text-brand-primary font-medium px-5 py-2 rounded-lg hover:bg-blue-50 transition-all relative group"
+              >
+                {item.name}
+                <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-brand-primary group-hover:w-3/4 transition-all duration-300"></span>
+              </Link>
+            </NavbarItem>
+          ))}
+        </NavbarContent>
 
-              {/* SriLanka */}
-              <div className="flex items-center">
+        <NavbarContent justify="end" className="hidden sm:flex gap-3">
+          <NavbarItem>
+            <Button 
+              as={Link} 
+              href="tel:+905551234567"
+              size="lg"
+              className="bg-brand-primary hover:bg-blue-800 text-white font-semibold shadow-md hover:shadow-lg transition-all"
+              startContent={<Phone className="w-5 h-5" strokeWidth={2} />}
+            >
+              Hemen Ara
+            </Button>
+          </NavbarItem>
+          <NavbarItem>
+            <Button 
+              as={Link} 
+              href="https://wa.me/905551234567"
+              size="lg"
+              variant="bordered"
+              className="border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-semibold transition-all"
+              startContent={<FaWhatsapp className="w-5 h-5" />}
+            >
+              WhatsApp
+            </Button>
+          </NavbarItem>
+        </NavbarContent>
+
+        <NavbarMenu className="pt-8 pb-8 bg-white/98 backdrop-blur-md">
+          {/* Menu Items */}
+          <div className="space-y-1 mb-8">
+            {menuItems.map((item, index) => (
+              <NavbarMenuItem key={index}>
                 <Link
-                  href="/sri-lanka"
-                  locale={locale}
-                  className="block text-lg font-medium text-gray-800 hover:text-amber-800 transition-colors"
+                  className="w-full flex items-center text-gray-700 hover:text-brand-primary font-semibold py-4 px-6 rounded-xl hover:bg-blue-50 transition-all group"
+                  href={item.href}
+                  size="lg"
                 >
-                  {t('sriLanka')}
+                  <span className="w-1.5 h-1.5 bg-brand-primary rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                  {item.name}
                 </Link>
-                <Chip className="ml-1 bg-amber-100 text-amber-800 text-xs font-semibold py-0.5 px-1.5" size="sm">{t('new')}</Chip>
-              </div>
-
-              {/* Blog */}
-              <Link
-                href="/blog"
-                locale={locale}
-                className="block text-lg font-medium text-gray-800 hover:text-amber-800 transition-colors"
-              >
-                {t('blog')}
-              </Link>
-              
-              {/* Contact */}
-              <Link
-                href="/contact"
-                locale={locale}
-                className="block text-lg font-medium text-gray-800 hover:text-amber-800 transition-colors"
-              >
-                {t('contact')}
-              </Link>
-            </nav>
-
-            {/* Mobil Dil Seçimi */}
-            <div className="mt-10 pt-6 border-t border-gray-200">
-              <p className="text-sm text-gray-500 mb-3">{locale === 'en' ? 'Language' : locale === 'sr' ? 'Jezik' : 'Dil'}</p>
-              <div className="flex space-x-4">
-                <button
-                  onClick={() => handleLanguageChange('tr')}
-                  className={`flex items-center space-x-2 ${locale === 'tr' ? 'font-medium' : 'text-gray-600'}`}
-                >
-                  <Image src={trFlag} alt="Türkçe" width={20} height={20} />
-                  <span>TR</span>
-                </button>
-                <button
-                  onClick={() => handleLanguageChange('en')}
-                  className={`flex items-center space-x-2 ${locale === 'en' ? 'font-medium' : 'text-gray-600'}`}
-                >
-                  <Image src={enFlag} alt="English" width={20} height={20} />
-                  <span>EN</span>
-                </button>
-                <button
-                  onClick={() => handleLanguageChange('sr')}
-                  className={`flex items-center space-x-2 ${locale === 'sr' ? 'font-medium' : 'text-gray-600'}`}
-                >
-                  <Image src={srFlag} alt="Srpski" width={20} height={20} />
-                  <span>SR</span>
-                </button>
-              </div>
-            </div>
+              </NavbarMenuItem>
+            ))}
           </div>
-        </div>
-      </div>
-
-      {/* Spacer div to prevent content from going under navbar */}
-      <div className="h-20"></div>
+          
+          {/* Contact Section - Mobile */}
+          <div className="px-4 space-y-4">
+            <div className="text-center mb-4">
+              <p className="text-sm font-semibold text-gray-500 uppercase tracking-wide">7/24 İletişim</p>
+            </div>
+            
+            {/* Call Button */}
+            <Button 
+              as={Link} 
+              href="tel:+905551234567"
+              size="lg"
+              className="w-full bg-brand-primary hover:bg-blue-800 text-white font-semibold py-7 shadow-lg"
+              startContent={<Phone className="w-5 h-5" strokeWidth={2} />}
+            >
+              <div className="flex flex-col items-start">
+                <span className="text-xs opacity-90">Hemen Ara</span>
+                <span className="text-base font-bold">0555 123 4567</span>
+              </div>
+            </Button>
+            
+            {/* WhatsApp Button */}
+            <Button 
+              as={Link} 
+              href="https://wa.me/905551234567"
+              size="lg"
+              className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-7 shadow-lg"
+              startContent={<FaWhatsapp className="w-5 h-5" />}
+            >
+              <div className="flex flex-col items-start">
+                <span className="text-xs opacity-90">Mesaj Gönder</span>
+                <span className="text-base font-bold">WhatsApp</span>
+              </div>
+            </Button>
+          </div>
+        </NavbarMenu>
+      </HeroNavbar>
     </>
   )
 }
