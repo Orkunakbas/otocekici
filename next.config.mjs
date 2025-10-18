@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
 const config = {
-  i18n: {
-    locales: ['tr', 'en', 'sr'],
-    defaultLocale: 'en'
-  }
+  reactStrictMode: true,
+  swcMinify: true,
 };
 
 export default config;
