@@ -8,48 +8,48 @@ import {
   Chip,
   Divider,
 } from "@heroui/react"
-import {
-  Truck,
-  Phone,
-  Clock,
-  Shield,
-  CheckCircle,
-  Car,
-  Bike,
-  Bus,
-  Wrench,
-  Star,
-  Award,
-  Zap,
-  MapPin,
-  TrendingUp,
-  Users,
-  Target
-} from 'lucide-react'
-import { FaWhatsapp } from 'react-icons/fa'
+import { 
+  FaTruck, 
+  FaPhone, 
+  FaClock, 
+  FaShieldAlt, 
+  FaCheckCircle, 
+  FaCar, 
+  FaMotorcycle, 
+  FaBus, 
+  FaWrench, 
+  FaStar, 
+  FaAward, 
+  FaBolt, 
+  FaMapMarkerAlt, 
+  FaChartLine, 
+  FaUsers, 
+  FaBullseye,
+  FaWhatsapp 
+} from 'react-icons/fa'
 
 const Index = () => {
   const services = [
     {
-      icon: Car,
+      icon: FaCar,
       title: "Otomobil Çekme",
       description: "Binek araçlar için profesyonel çekici hizmeti",
       features: ["Sedan & Hatchback", "SUV Taşıma", "Hasarlı Araç"]
     },
     {
-      icon: Bus,
+      icon: FaBus,
       title: "Ticari Araç",
       description: "Minibüs ve kamyonet çekme hizmeti",
       features: ["Minibüs Çekme", "Kamyonet", "Panel Van"]
     },
     {
-      icon: Bike,
+      icon: FaMotorcycle,
       title: "Motosiklet",
       description: "İki tekerlekli araçlar için özel taşıma",
       features: ["Motosiklet", "Scooter", "ATV"]
     },
     {
-      icon: Wrench,
+      icon: FaWrench,
       title: "Yol Yardım",
       description: "Acil yol yardım hizmetleri",
       features: ["Akü Takviye", "Lastik Değişimi", "Yakıt İkmali"]
@@ -57,12 +57,12 @@ const Index = () => {
   ]
 
   const advantages = [
-    { icon: Zap, title: "Hızlı Müdahale", desc: "İstanbul genelinde hızlı servis" },
-    { icon: Shield, title: "Sigortalı Hizmet", desc: "Güvenli taşıma garantisi" },
-    { icon: Clock, title: "7/24 Hizmet", desc: "Kesintisiz destek" },
-    { icon: Truck, title: "Modern Ekipman", desc: "Son model çekiciler" },
-    { icon: Star, title: "Uygun Fiyat", desc: "Şeffaf fiyatlandırma" },
-    { icon: Award, title: "10+ Yıl Tecrübe", desc: "Uzman ekip" }
+    { icon: FaBolt, title: "Hızlı Müdahale", desc: "İstanbul genelinde hızlı servis" },
+    { icon: FaShieldAlt, title: "Sigortalı Hizmet", desc: "Güvenli taşıma garantisi" },
+    { icon: FaClock, title: "7/24 Hizmet", desc: "Kesintisiz destek" },
+    { icon: FaTruck, title: "Modern Ekipman", desc: "Son model çekiciler" },
+    { icon: FaStar, title: "Uygun Fiyat", desc: "Şeffaf fiyatlandırma" },
+    { icon: FaAward, title: "10+ Yıl Tecrübe", desc: "Uzman ekip" }
   ]
 
   const areas = [
@@ -87,10 +87,10 @@ const Index = () => {
   ]
 
   const stats = [
-    { icon: TrendingUp, value: "24 Saat", label: "Kesintisiz Hizmet" },
-    { icon: Award, value: "10+ Yıl", label: "Tecrübe" },
-    { icon: Users, value: "5000+", label: "Mutlu Müşteri" },
-    { icon: Target, value: "39 İlçe", label: "İstanbul Geneli" }
+    { icon: FaChartLine, value: "24 Saat", label: "Kesintisiz Hizmet" },
+    { icon: FaAward, value: "10+ Yıl", label: "Tecrübe" },
+    { icon: FaUsers, value: "5000+", label: "Mutlu Müşteri" },
+    { icon: FaBullseye, value: "39 İlçe", label: "İstanbul Geneli" }
   ]
 
   return (
@@ -316,7 +316,7 @@ const Index = () => {
                   href="tel:+905551234567"
                   size="lg"
                   className="w-full sm:w-64 bg-white hover:bg-gray-50 text-brand-primary font-bold text-lg px-8 py-8 shadow-2xl hover:shadow-xl hover:scale-105 transition-all"
-                  startContent={<Phone className="w-5 h-5" strokeWidth={2.5} />}
+                  startContent={<FaPhone className="w-5 h-5" />}
                 >
                   0555 123 4567
                 </Button>
@@ -450,7 +450,7 @@ const Index = () => {
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                       {area.locations.map((location, i) => (
                         <div key={i} className="flex items-center gap-2 text-sm text-gray-700">
-                          <CheckCircle className="w-4 h-4 text-brand-primary flex-shrink-0" strokeWidth={2} />
+                          <FaCheckCircle className="w-4 h-4 text-brand-primary flex-shrink-0" />
                           <span>{location}</span>
                         </div>
                       ))}
@@ -564,22 +564,22 @@ const Index = () => {
                 href="tel:+905551234567"
                 size="lg"
                 className="bg-white hover:bg-gray-50 text-brand-primary font-semibold text-xl px-12 py-7 shadow-xl mb-12"
-                startContent={<Phone className="w-5 h-5" strokeWidth={2} />}
+                startContent={<FaPhone className="w-5 h-5" />}
               >
                 0555 123 4567
               </Button>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-8 border-t border-white/20">
                 <div className="text-center">
-                  <MapPin className="w-6 h-6 mx-auto mb-2 text-blue-200" strokeWidth={2} />
+                  <FaMapMarkerAlt className="w-6 h-6 mx-auto mb-2 text-blue-200" />
                   <p className="text-sm text-blue-100">39 İlçe</p>
                 </div>
                 <div className="text-center">
-                  <Clock className="w-6 h-6 mx-auto mb-2 text-blue-200" strokeWidth={2} />
+                  <FaClock className="w-6 h-6 mx-auto mb-2 text-blue-200" />
                   <p className="text-sm text-blue-100">7/24 Hizmet</p>
                 </div>
                 <div className="text-center">
-                  <Shield className="w-6 h-6 mx-auto mb-2 text-blue-200" strokeWidth={2} />
+                  <FaShieldAlt className="w-6 h-6 mx-auto mb-2 text-blue-200" />
                   <p className="text-sm text-blue-100">Güvenli Taşıma</p>
                 </div>
               </div>

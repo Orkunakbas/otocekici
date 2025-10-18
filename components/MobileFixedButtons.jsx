@@ -1,6 +1,5 @@
 import React from 'react'
-import { Phone } from 'lucide-react'
-import { FaWhatsapp } from 'react-icons/fa'
+import { FaPhone, FaWhatsapp } from 'react-icons/fa'
 
 const MobileFixedButtons = () => {
   return (
@@ -11,7 +10,7 @@ const MobileFixedButtons = () => {
           href="tel:+905551234567"
           className="flex items-center justify-center gap-3 bg-brand-primary hover:bg-blue-800 text-white font-bold py-5 transition-all active:scale-95"
         >
-          <Phone className="w-5 h-5" strokeWidth={2.5} />
+          <FaPhone className="w-5 h-5" />
           <div className="flex flex-col items-start">
             <span className="text-xs opacity-90">Hemen Ara</span>
             <span className="text-sm font-extrabold">0555 123 4567</span>

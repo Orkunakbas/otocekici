@@ -10,8 +10,7 @@ import {
   Link,
   Button
 } from "@heroui/react"
-import { Truck, Phone } from 'lucide-react'
-import { FaWhatsapp } from 'react-icons/fa'
+import { FaTruck, FaPhone, FaWhatsapp } from 'react-icons/fa'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
@@ -175,7 +174,7 @@ const Navbar = () => {
               href="tel:+905551234567"
               size="lg"
               className="bg-brand-primary hover:bg-blue-800 text-white font-semibold shadow-md hover:shadow-lg transition-all"
-              startContent={<Phone className="w-5 h-5" strokeWidth={2} />}
+              startContent={<FaPhone className="w-5 h-5" />}
             >
               Hemen Ara
             </Button>
@@ -223,7 +222,7 @@ const Navbar = () => {
               href="tel:+905551234567"
               size="lg"
               className="w-full bg-brand-primary hover:bg-blue-800 text-white font-semibold py-7 shadow-lg"
-              startContent={<Phone className="w-5 h-5" strokeWidth={2} />}
+              startContent={<FaPhone className="w-5 h-5" />}
             >
               <div className="flex flex-col items-start">
                 <span className="text-xs opacity-90">Hemen Ara</span>

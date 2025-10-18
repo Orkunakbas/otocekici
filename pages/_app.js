@@ -9,7 +9,6 @@ import { Toaster } from 'react-hot-toast'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 import Navbar from '@/components/menu/Navbar'
-import Topbar from "@/components/menu/Topbar"
 import MobileFixedButtons from '@/components/MobileFixedButtons'
 
 // AppContent'i düzeltelim
