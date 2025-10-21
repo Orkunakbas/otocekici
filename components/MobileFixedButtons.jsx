@@ -7,25 +7,25 @@ const MobileFixedButtons = () => {
       <div className="grid grid-cols-2 gap-0">
         {/* Call Button */}
         <a
-          href="tel:+905551234567"
+          href="tel:+905305417208"
           className="flex items-center justify-center gap-3 bg-brand-primary hover:bg-blue-800 text-white font-bold py-5 transition-all active:scale-95"
         >
           <FaPhone className="w-5 h-5" />
           <div className="flex flex-col items-start">
             <span className="text-xs opacity-90">Hemen Ara</span>
-            <span className="text-sm font-extrabold">0555 123 4567</span>
+            <span className="text-sm font-extrabold">0530 541 72 08</span>
           </div>
         </a>
         
         {/* WhatsApp Button */}
         <a
-          href="https://wa.me/905551234567"
+          href="https://wa.me/905305417208"
           className="flex items-center justify-center gap-3 bg-green-600 hover:bg-green-700 text-white font-bold py-5 transition-all active:scale-95"
         >
           <FaWhatsapp className="w-6 h-6" />
           <div className="flex flex-col items-start">
             <span className="text-xs opacity-90">Mesaj Gönder</span>
-            <span className="text-sm font-extrabold">WhatsApp</span>
+            <span className="text-sm font-extrabold">0530 541 72 08</span>
           </div>
         </a>
       </div>
