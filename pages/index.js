@@ -52,7 +52,7 @@ const Index = () => {
       icon: FaWrench,
       title: "Yol Yardım",
       description: "Acil yol yardım hizmetleri",
-      features: ["Akü Takviye", "Lastik Değişimi", "Yakıt İkmali"]
+      features: ["Akü Takviye", "Yakıt İkmali"]
     }
   ]
 
@@ -323,12 +323,12 @@ const Index = () => {
 
               <Button
                 as="a"
-                href="tel:+905356211434"
+                href="tel:+905356211134"
                 size="lg"
                 className="w-full sm:w-auto bg-white hover:bg-gray-50 text-brand-primary font-bold text-lg px-8 py-8 shadow-2xl hover:shadow-xl hover:scale-105 transition-all"
                 startContent={<FaPhone className="w-5 h-5" />}
               >
-                0535 621 14 34
+                0535 621 11 34
               </Button>
                 
               <Button
@@ -515,7 +515,7 @@ const Index = () => {
                 },
                 {
                   question: "Yol yardım hizmeti de veriyor musunuz?",
-                  answer: "Evet, oto çekici hizmetinin yanı sıra akü takviyesi, lastik değişimi, yakıt ikmali ve basit mekanik müdahaleler gibi yol yardım hizmetleri de sunuyoruz."
+                  answer: "Evet, oto çekici hizmetinin yanı sıra akü takviyesi, yakıt ikmali ve basit mekanik müdahaleler gibi yol yardım hizmetleri de sunuyoruz."
                 },
                 {
                   question: "Ödeme nasıl yapılıyor?",
@@ -582,12 +582,12 @@ const Index = () => {
 
                 <Button
                   as="a"
-                  href="tel:+905356211434"
+                  href="tel:+905356211134"
                   size="lg"
                   className="bg-white hover:bg-gray-50 text-brand-primary font-semibold text-xl px-12 py-7 shadow-xl"
                   startContent={<FaPhone className="w-5 h-5" />}
                 >
-                  0535 621 14 34
+                  0535 621 11 34
                 </Button>
               </div>
 
@@ -727,7 +727,7 @@ const Index = () => {
                   </div>
                   <div>
                   <p className="text-gray-500 mb-1">Alternatif Telefon</p>
-                  <a href="tel:+905356211434" className="text-gray-300 hover:text-white">0535 621 14 34</a>
+                  <a href="tel:+905356211134" className="text-gray-300 hover:text-white">0535 621 11 34</a>
                   </div>
 
                 
