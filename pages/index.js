@@ -609,6 +609,46 @@ const Index = () => {
           </div>
         </section>
 
+        {/* Map Section */}
+        <section className="py-24 px-6 bg-gray-50">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-8">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Konum</h2>
+              <p className="text-gray-600">Harita üzerinden bize kolayca ulaşın</p>
+            </div>
+            <div className="flex justify-center">
+              <div style={{ position: 'relative', overflow: 'hidden', width: '100%', height: 400, maxWidth: 1000 }}>
+                <a
+                  href="https://yandex.com.tr/maps/org/arnavutkoy_oto_cekici/143351790719/?utm_medium=mapframe&utm_source=maps"
+                  style={{ color: '#eee', fontSize: 12, position: 'absolute', top: 0 }}
+                >
+                  Arnavutköy Oto Çekici
+                </a>
+                <a
+                  href="https://yandex.com.tr/maps/107759/arnavutkoy/category/auto_technical_assistance_car_evacuation/184105248/?utm_medium=mapframe&utm_source=maps"
+                  style={{ color: '#eee', fontSize: 12, position: 'absolute', top: 14 }}
+                >
+                  Arnavutköy için Çekici hizmeti
+                </a>
+                <a
+                  href="https://yandex.com.tr/maps/107759/arnavutkoy/category/auto_technical_assistance/60174916616/?utm_medium=mapframe&utm_source=maps"
+                  style={{ color: '#eee', fontSize: 12, position: 'absolute', top: 28 }}
+                >
+                  Arnavutköy için Gezici servis
+                </a>
+                <iframe
+                  src="https://yandex.com.tr/map-widget/v1/org/arnavutkoy_oto_cekici/143351790719/?ll=28.759474%2C41.205118&utm_source=share&z=16"
+                  width="1000"
+                  height="400"
+                  frameBorder="1"
+                  allowFullScreen={true}
+                  style={{ position: 'relative', width: '100%', height: 400 }}
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Footer */}
         <footer className="bg-gray-900 text-white py-16 px-6">
           <div className="max-w-7xl mx-auto">
